@@ -1,2 +1,9 @@
 # IsharaMods
 Custom Mods for the game Lilith's Throne being developed by Innoxia.
+
+Link for Lilith's Throne: www.lilithsthrone.blogspot.com/
+Please support Innoxia and her project if you are a like it and are a fan of text-based RPGs.
+
+Installation:
+* Make sure you are running version 0.2.6.2 or higher.
+* Extract the archive to your res/mods/ folder.

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<clothing>
+	<coreAtributes>
+		<value>600</value>
+		<determiner><![CDATA[a pair of]]></determiner>
+		<name><![CDATA[Enforcer Handcuffs]]></name>
+		<namePlural pluralByDefault="true"><![CDATA[Enforcer Handcuffs]]></namePlural>
+		<description><![CDATA[A pair of metal handcuffs. It is a part of the standard Enforcer equipment.]]></description>
+		<physicalResistance>0</physicalResistance> 
+		<femininity>ANDROGYNOUS</femininity>
+		<slot>WRIST</slot> 
+		<rarity>RARE</rarity> 
+		<clothingSet>BDSM</clothingSet> 
+		<imageName>Enforcer_Handcuffs.svg</imageName> 
+		<imageEquippedName/>
+		<enchantmentLimit>10</enchantmentLimit>
+		<effects>
+			<effect itemEffectType="CLOTHING" limit="0" potency="BOOST" primaryModifier="CLOTHING_SEALING" secondaryModifier="ARCANE_BOOST" timer="0"/>     
+			<effect itemEffectType="CLOTHING" limit="0" potency="BOOST" primaryModifier="CLOTHING_ENSLAVEMENT" secondaryModifier="ARCANE_BOOST" timer="0"/>
+		</effects>
+		<blockedPartsList>
+			<blockedParts>
+				<displacementType>REMOVE_OR_EQUIP</displacementType>
+				<clothingAccessRequired>
+					<clothingAccess>WRISTS</clothingAccess>
+				</clothingAccessRequired>
+				<blockedBodyParts>
+				</blockedBodyParts>
+				<clothingAccessBlocked>
+					<clothingAccess>WRISTS</clothingAccess>
+				</clothingAccessBlocked>
+				<concealedSlots>
+				</concealedSlots>
+				</blockedParts>
+		</blockedPartsList>
+		<incompatibleSlots/> 
+		<primaryColours values="JUST_STEEL"/> 
+		<primaryColoursDye values="ALL_METAL"/>
+		<secondaryColours values="JUST_SILVER"/>
+		<secondaryColoursDye values="ALL_METAL"/>
+		<tertiaryColours values="JUST_GOLD"/>
+		<tertiaryColoursDye values="ALL_METAL"/>
+		<itemTags>
+			<tag>SOLD_BY_FINCH</tag>
+		</itemTags>
+	</coreAtributes>
+	
+	<displacementText type="REMOVE_OR_EQUIP">
+		<playerSelf><![CDATA[You unequip your Enforcer Handcuffs]]></playerSelf>
+		<playerNPC><![CDATA[You unequip your Enforcer Handcuffs]]></playerNPC>
+		<playerNPCRough><![CDATA[You roughly unequip [npc.name]'s Enforcer Handcuffs.]]></playerNPCRough>
+		<NPCSelf><![CDATA[[npc.Name]  [npc.her] Enforcer Handcuffs.]]></NPCSelf>
+		<NPCPlayer><![CDATA[[npc.Name]  your Enforcer Handcuffs.]]></NPCPlayer>
+		<NPCPlayerRough><![CDATA[[npc.Name] roughly  your Enforcer Handcuffs.]]></NPCPlayerRough>
+		<NPCOtherNPC><![CDATA[[npc.Name]  [npc2.name]'s Enforcer Handcuffs.]]></NPCOtherNPC>
+		<NPCOtherNPCRough><![CDATA[[npc.Name] roughly  [npc2.name]'s Enforcer Handcuffs.]]></NPCOtherNPCRough>
+	</displacementText>
+	<replacementText type="REMOVE_OR_EQUIP">
+		<playerSelf><![CDATA[You  your Enforcer Handcuffs]]></playerSelf>
+		<playerNPC><![CDATA[You  your Enforcer Handcuffs]]></playerNPC>
+		<playerNPCRough><![CDATA[You roughly  [npc.name]'s Enforcer Handcuffs.]]></playerNPCRough>
+		<NPCSelf><![CDATA[[npc.Name]  [npc.her] Enforcer Handcuffs.]]></NPCSelf>
+		<NPCPlayer><![CDATA[[npc.Name]  your Enforcer Handcuffs.]]></NPCPlayer>
+		<NPCPlayerRough><![CDATA[[npc.Name] roughly  your Enforcer Handcuffs.]]></NPCPlayerRough>
+		<NPCOtherNPC><![CDATA[[npc.Name]  [npc2.name]'s Enforcer Handcuffs.]]></NPCOtherNPC>
+		<NPCOtherNPCRough><![CDATA[[npc.Name] roughly  [npc2.name]'s Enforcer Handcuffs.]]></NPCOtherNPCRough>
+	</replacementText>
+</clothing>

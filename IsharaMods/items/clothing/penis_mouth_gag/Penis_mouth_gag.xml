@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<clothing>
+	<coreAtributes>
+	<value>150</value>
+	<determiner><![CDATA[a]]></determiner>
+	<name><![CDATA[Penis Gag]]></name>
+	<namePlural pluralByDefault="false"><![CDATA[Penis Gags]]></namePlural>
+	<description><![CDATA[A leather strap with an arcane-cured silicon penis fixed into one side.]]></description>
+	<physicalResistance>0</physicalResistance>
+	<femininity>ANDROGYNOUS</femininity>
+	<slot>MOUTH</slot>
+	<rarity>RARE</rarity>
+	<clothingSet/>
+	<imageName>Penis_mouth_gag.svg</imageName>
+	<imageEquippedName/>
+	<enchantmentLimit/>
+	<effects/>
+	<blockedPartsList>
+		<blockedParts>
+			<displacementType>REMOVE_OR_EQUIP</displacementType>
+			<clothingAccessRequired></clothingAccessRequired>
+			<blockedBodyParts>
+				<bodyPart>MOUTH</bodyPart>
+			</blockedBodyParts>
+			<clothingAccessBlocked></clothingAccessBlocked>
+			<concealedSlots></concealedSlots>
+		</blockedParts>
+	</blockedPartsList>
+	<incompatibleSlots/>
+	<primaryColours values="ALL"/>
+	<primaryColoursDye values="ALL"/>
+	<secondaryColours values="ALL"/>
+	<secondaryColoursDye values="ALL"/>
+	<tertiaryColours values="ALL_METAL"/>
+	<tertiaryColoursDye values="ALL_METAL"/>
+	<itemTags>
+		<tag>SOLD_BY_FINCH</tag>
+		<tag>SOLD_BY_NYAN</tag>
+	</itemTags>
+	</coreAtributes>
+	<displacementText type="REMOVE_OR_EQUIP">
+		<playerSelf><![CDATA[You unequip your penis gag]]></playerSelf>
+		<playerNPC><![CDATA[You unequip your penis gag]]></playerNPC>
+		<playerNPCRough><![CDATA[You roughly unequip [npc.name]'s penis gag.]]></playerNPCRough>
+		<NPCSelf><![CDATA[[npc.Name]  [npc.her] penis gag.]]></NPCSelf>
+		<NPCPlayer><![CDATA[[npc.Name]  your penis gag.]]></NPCPlayer>
+		<NPCPlayerRough><![CDATA[[npc.Name] roughly  your penis gag.]]></NPCPlayerRough>
+		<NPCOtherNPC><![CDATA[[npc.Name]  [npc2.name]'s penis gag.]]></NPCOtherNPC>
+		<NPCOtherNPCRough><![CDATA[[npc.Name] roughly  [npc2.name]'s penis gag.]]></NPCOtherNPCRough>
+	</displacementText>
+	<replacementText type="REMOVE_OR_EQUIP">
+		<playerSelf><![CDATA[You  your penis gag]]></playerSelf>
+		<playerNPC><![CDATA[You  your penis gag]]></playerNPC>
+		<playerNPCRough><![CDATA[You roughly  [npc.name]'s penis gag.]]></playerNPCRough>
+		<NPCSelf><![CDATA[[npc.Name]  [npc.her] penis gag.]]></NPCSelf>
+		<NPCPlayer><![CDATA[[npc.Name]  your penis gag.]]></NPCPlayer>
+		<NPCPlayerRough><![CDATA[[npc.Name] roughly  your penis gag.]]></NPCPlayerRough>
+		<NPCOtherNPC><![CDATA[[npc.Name]  [npc2.name]'s penis gag.]]></NPCOtherNPC>
+		<NPCOtherNPCRough><![CDATA[[npc.Name] roughly  [npc2.name]'s penis gag.]]></NPCOtherNPCRough>
+	</replacementText>
+</clothing>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<clothing>
+	<coreAtributes>
+		<value>650</value>
+		<determiner>
+			<![CDATA[an]]>
+		</determiner>
+		<name>
+			<![CDATA[Ouroboros necklace]]>
+		</name>
+		<namePlural pluralByDefault="false">
+			<![CDATA[Ouroboros necklaces]]>
+		</namePlural>
+		<description>
+			<![CDATA[A necklace with an Ouroboros pendant. It is closely associated with the Philosopher's Stone and the man who calls himself "Father".]]>
+		</description>
+		<physicalResistance>0</physicalResistance> 
+		<femininity>ANDROGYNOUS</femininity>
+		<slot>NECK</slot> 
+		<rarity>UNCOMMON</rarity> 
+		<clothingSet/> 
+		<imageName>FMA_OuroNecklace.svg</imageName> 
+		<imageEquippedName/> 
+		<enchantmentLimit>10</enchantmentLimit>
+		<effects/>
+		<blockedPartsList>
+			<blockedParts>
+			<displacementType>REMOVE_OR_EQUIP</displacementType>
+			<clothingAccessRequired>
+			</clothingAccessRequired>
+			<blockedBodyParts>
+			</blockedBodyParts>
+			<clothingAccessBlocked>
+			</clothingAccessBlocked>
+			<concealedSlots>
+			</concealedSlots>
+			</blockedParts>
+		</blockedPartsList>
+		<incompatibleSlots/> 
+		<primaryColours values="ALL_METAL"/> 
+		<primaryColoursDye values="ALL_METAL"/>
+		<secondaryColours values="ALL"/> 
+		<secondaryColoursDye values="ALL"/>
+		<itemTags>
+			<tag>SOLD_BY_NYAN</tag>
+			<tag>SOLD_BY_KATE</tag>
+		</itemTags>
+	</coreAtributes>
+	<displacementText type="REMOVE_OR_EQUIP">
+		<playerSelf>
+		<![CDATA[You unequip your Ouroboros necklace]]>
+		</playerSelf>
+		<playerNPC>
+		<![CDATA[You unequip your Ouroboros necklace]]>
+		</playerNPC>
+		<playerNPCRough>
+		<![CDATA[You roughly unequip [npc.name]'s Ouroboros necklace.]]>
+		</playerNPCRough>
+		<NPCSelf>
+		<![CDATA[[npc.Name]  [npc.her] Ouroboros necklace.]]>
+		</NPCSelf>
+		<NPCPlayer>
+		<![CDATA[[npc.Name]  your Ouroboros necklace.]]>
+		</NPCPlayer>
+		<NPCPlayerRough>
+		<![CDATA[[npc.Name] roughly  your Ouroboros necklace.]]>
+		</NPCPlayerRough>
+		<NPCOtherNPC>
+		<![CDATA[[npc.Name]  [npc2.name]'s Ouroboros necklace.]]>
+		</NPCOtherNPC>
+		<NPCOtherNPCRough>
+		<![CDATA[[npc.Name] roughly  [npc2.name]'s Ouroboros necklace.]]>
+		</NPCOtherNPCRough>
+	</displacementText>
+	<replacementText type="REMOVE_OR_EQUIP">
+		<playerSelf>
+		<![CDATA[You  your Ouroboros necklace]]>
+		</playerSelf>
+		<playerNPC>
+		<![CDATA[You  your Ouroboros necklace]]>
+		</playerNPC>
+		<playerNPCRough>
+		<![CDATA[You roughly  [npc.name]'s Ouroboros necklace.]]>
+		</playerNPCRough>
+		<NPCSelf>
+		<![CDATA[[npc.Name]  [npc.her] Ouroboros necklace.]]>
+		</NPCSelf>
+		<NPCPlayer>
+		<![CDATA[[npc.Name]  your Ouroboros necklace.]]>
+		</NPCPlayer>
+		<NPCPlayerRough>
+		<![CDATA[[npc.Name] roughly  your Ouroboros necklace.]]>
+		</NPCPlayerRough>
+		<NPCOtherNPC>
+		<![CDATA[[npc.Name]  [npc2.name]'s Ouroboros necklace.]]>
+		</NPCOtherNPC>
+		<NPCOtherNPCRough>
+		<![CDATA[[npc.Name] roughly  [npc2.name]'s Ouroboros necklace.]]>
+		</NPCOtherNPCRough>
+	</replacementText>
+</clothing>

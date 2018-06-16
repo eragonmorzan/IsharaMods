@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<clothing>
+	<coreAtributes>
+		<value>1200</value>
+		<determiner>
+			<![CDATA[a]]>
+		</determiner>
+		<name>
+			<![CDATA[Cultist Witch necklace]]>
+		</name>
+		<namePlural pluralByDefault="false">
+			<![CDATA[Cultist Witch necklaces]]>
+		</namePlural>
+		<description>
+			<![CDATA[A necklace with a pendant showing a witch on a broomstick. It is closely associated with the Witches who are followers of Lilith. It is rumoured that once you don their symbol, you become a slave of Lilith.]]>
+		</description>
+		<physicalResistance>0</physicalResistance> 
+		<femininity>ANDROGYNOUS</femininity>
+		<slot>NECK</slot> 
+		<rarity>RARE</rarity> 
+		<clothingSet>WITCH</clothingSet> 
+		<imageName>Witch_Necklace.svg</imageName> 
+		<imageEquippedName/> 
+		<enchantmentLimit>10</enchantmentLimit>
+		<effects>
+			<effect itemEffectType="CLOTHING" limit="0" potency="BOOST" primaryModifier="CLOTHING_SEALING" secondaryModifier="ARCANE_BOOST" timer="0"/>
+			<effect itemEffectType="CLOTHING" limit="0" potency="BOOST" primaryModifier="CLOTHING_ENSLAVEMENT" secondaryModifier="ARCANE_BOOST" timer="0"/>
+		</effects>
+		<blockedPartsList>
+			<blockedParts>
+			<displacementType>REMOVE_OR_EQUIP</displacementType>
+			<clothingAccessRequired>
+			</clothingAccessRequired>
+			<blockedBodyParts>
+			</blockedBodyParts>
+			<clothingAccessBlocked>
+			</clothingAccessBlocked>
+			<concealedSlots>
+			</concealedSlots>
+			</blockedParts>
+		</blockedPartsList>
+		<incompatibleSlots/> 
+		<primaryColours values="JUST_GOLD"/> 
+		<primaryColoursDye values="ALL_METAL"/>
+		<secondaryColours values="JUST_GOLD"/> 
+		<secondaryColoursDye values="ALL_METAL"/>
+		<itemTags>
+			<tag>SOLD_BY_VICKY</tag>
+			<tag>SOLD_BY_NYAN</tag>
+			<tag>SOLD_BY_FINCH</tag>
+		</itemTags>
+	</coreAtributes>
+	<displacementText type="REMOVE_OR_EQUIP">
+		<playerSelf>
+		<![CDATA[You unequip your cultist necklace]]>
+		</playerSelf>
+		<playerNPC>
+		<![CDATA[You unequip your cultist necklace]]>
+		</playerNPC>
+		<playerNPCRough>
+		<![CDATA[You roughly unequip [npc.name]'s cultist necklace.]]>
+		</playerNPCRough>
+		<NPCSelf>
+		<![CDATA[[npc.Name]  [npc.her] cultist necklace.]]>
+		</NPCSelf>
+		<NPCPlayer>
+		<![CDATA[[npc.Name]  your cultist necklace.]]>
+		</NPCPlayer>
+		<NPCPlayerRough>
+		<![CDATA[[npc.Name] roughly  your cultist necklace.]]>
+		</NPCPlayerRough>
+		<NPCOtherNPC>
+		<![CDATA[[npc.Name]  [npc2.name]'s cultist necklace.]]>
+		</NPCOtherNPC>
+		<NPCOtherNPCRough>
+		<![CDATA[[npc.Name] roughly  [npc2.name]'s cultist necklace.]]>
+		</NPCOtherNPCRough>
+	</displacementText>
+	<replacementText type="REMOVE_OR_EQUIP">
+		<playerSelf>
+		<![CDATA[You  your cultist necklace]]>
+		</playerSelf>
+		<playerNPC>
+		<![CDATA[You  your cultist necklace]]>
+		</playerNPC>
+		<playerNPCRough>
+		<![CDATA[You roughly  [npc.name]'s cultist necklace.]]>
+		</playerNPCRough>
+		<NPCSelf>
+		<![CDATA[[npc.Name]  [npc.her] cultist necklace.]]>
+		</NPCSelf>
+		<NPCPlayer>
+		<![CDATA[[npc.Name]  your cultist necklace.]]>
+		</NPCPlayer>
+		<NPCPlayerRough>
+		<![CDATA[[npc.Name] roughly  your cultist necklace.]]>
+		</NPCPlayerRough>
+		<NPCOtherNPC>
+		<![CDATA[[npc.Name]  [npc2.name]'s cultist necklace.]]>
+		</NPCOtherNPC>
+		<NPCOtherNPCRough>
+		<![CDATA[[npc.Name] roughly  [npc2.name]'s cultist necklace.]]>
+		</NPCOtherNPCRough>
+	</replacementText>
+</clothing>

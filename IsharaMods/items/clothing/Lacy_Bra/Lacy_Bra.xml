@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<clothing>
+	<coreAtributes>
+		<value>300</value>
+		<determiner><![CDATA[a]]></determiner>
+		<name><![CDATA[Fancy Lacy Bra]]></name>
+		<namePlural pluralByDefault="false"><![CDATA[Fancy Lacy Bras]]></namePlural>
+		<description><![CDATA[A fancy low-cut bra that reveals a lot of the wearer's cleavage. This particular design is made from a soft, thin fabric, and has a lot of lace trimmings.]]></description>
+		<physicalResistance>1</physicalResistance> 
+		<femininity>FEMININE</femininity>
+		<slot>CHEST</slot> 
+		<rarity>COMMON</rarity> 
+		<clothingSet/> 
+		<imageName>Lacy_Bra.svg</imageName> 
+		<imageEquippedName/> 
+		<enchantmentLimit/>
+		<effects/>
+		<blockedPartsList>
+			<blockedParts>
+				<displacementType>REMOVE_OR_EQUIP</displacementType>
+				<clothingAccessRequired>
+				<clothingAccess>ARMS_UP_TO_SHOULDER</clothingAccess>
+				<clothingAccess>CHEST</clothingAccess>
+				</clothingAccessRequired>
+				<blockedBodyParts>
+				</blockedBodyParts>
+				<clothingAccessBlocked>
+				</clothingAccessBlocked>
+				<concealedSlots>
+				</concealedSlots>
+			</blockedParts>
+			<blockedParts>
+				<displacementType>PULLS_DOWN</displacementType>
+				<clothingAccessRequired>
+				<clothingAccess>CHEST</clothingAccess>
+				</clothingAccessRequired>
+				<blockedBodyParts>
+				<bodyPart>NIPPLES</bodyPart>
+				</blockedBodyParts>
+				<clothingAccessBlocked>
+				<clothingAccess>CHEST</clothingAccess>
+				</clothingAccessBlocked>
+				<concealedSlots>
+				<slot>NIPPLE</slot>
+				<slot>PIERCING_NIPPLE</slot>
+				</concealedSlots>
+			</blockedParts>
+		</blockedPartsList>
+		<incompatibleSlots/> 
+		<primaryColours values="ALL"/> 
+		<primaryColoursDye values="ALL"/>
+		<itemTags>
+			<tag>SOLD_BY_NYAN</tag>
+		</itemTags>
+	</coreAtributes>
+	<displacementText type="REMOVE_OR_EQUIP">
+		<playerSelf><![CDATA[You slide your bra's straps off your shoulders before tugging it down to reveal your [pc.breasts+].]]></playerSelf>
+		<playerNPC><![CDATA[You slide your bra's straps off your shoulders before tugging it down to reveal your [pc.breasts+].]]></playerNPC>
+		<playerNPCRough><![CDATA[You slide [npc.her] bra's straps off [npc.her] shoulders before tugging it down to reveal [npc.her] [npc.breasts+].]]></playerNPCRough>
+		<NPCSelf><![CDATA[[npc.Name] slides [npc.her] bra's straps off [npc.her] shoulders before tugging it down to reveal [npc.her] [npc.breasts+].]]></NPCSelf>
+		<NPCPlayer><![CDATA[[npc.Name] slides your bra's straps off your shoulders before tugging it down to reveal your [pc.breasts+].]]></NPCPlayer>
+		<NPCPlayerRough><![CDATA[[npc.Name] slides your bra's straps off your shoulders before tugging it down to reveal your [pc.breasts+].]]></NPCPlayerRough>
+		<NPCOtherNPC><![CDATA[[npc1.Name] manipulates [npc2.name]'s clothing.]]></NPCOtherNPC>
+		<NPCOtherNPCRough><![CDATA[[npc1.Name] manipulates [npc2.name]'s clothing.]]></NPCOtherNPCRough>
+	</displacementText>
+	<displacementText type="PULLS_DOWN">
+		<playerSelf><![CDATA[You slide your bra's straps off your shoulders before tugging it down to reveal your [pc.breasts+].]]></playerSelf>
+		<playerNPC><![CDATA[You slide your bra's straps off your shoulders before tugging it down to reveal your [pc.breasts+].]]></playerNPC>
+		<playerNPCRough><![CDATA[You slide [npc.her] bra's straps off [npc.her] shoulders before tugging it down to reveal [npc.her] [npc.breasts+].]]></playerNPCRough>
+		<NPCSelf><![CDATA[[npc.Name] slides [npc.her] bra's straps off [npc.her] shoulders before tugging it down to reveal [npc.her] [npc.breasts+].]]></NPCSelf>
+		<NPCPlayer><![CDATA[[npc.Name] slides your bra's straps off your shoulders before tugging it down to reveal your [pc.breasts+].]]></NPCPlayer>
+		<NPCPlayerRough><![CDATA[[npc.Name] slides your bra's straps off your shoulders before tugging it down to reveal your [pc.breasts+].]]></NPCPlayerRough>
+		<NPCOtherNPC><![CDATA[[npc1.Name] manipulates [npc2.name]'s clothing.]]></NPCOtherNPC>
+		<NPCOtherNPCRough><![CDATA[[npc1.Name] manipulates [npc2.name]'s clothing.]]></NPCOtherNPCRough>
+	</displacementText>
+	<replacementText type="REMOVE_OR_EQUIP">
+		<playerSelf><![CDATA[You pull your bra back up to cover your [pc.breasts].]]></playerSelf>
+		<playerNPC><![CDATA[You pull your bra back up to cover your [pc.breasts].]]></playerNPC>
+		<playerNPCRough><![CDATA[You slide [npc.her] bra back up to cover [npc.her] [npc.breasts].]]></playerNPCRough>
+		<NPCSelf><![CDATA[[npc.Name] pulls [npc.her] bra back up to cover [npc.her] [npc.breasts].]]></NPCSelf>
+		<NPCPlayer><![CDATA[[npc.Name] pulls your bra back up to cover your [pc.breasts].]]></NPCPlayer>
+		<NPCPlayerRough><![CDATA[[npc.Name] pulls your bra back up to cover your [pc.breasts].]]></NPCPlayerRough>
+		<NPCOtherNPC><![CDATA[[npc1.Name] manipulates [npc2.name]'s clothing.]]></NPCOtherNPC>
+		<NPCOtherNPCRough><![CDATA[[npc1.Name] manipulates [npc2.name]'s clothing.]]></NPCOtherNPCRough>
+	</replacementText>
+	<replacementText type="PULLS_DOWN">
+		<playerSelf><![CDATA[You pull your bra back up to cover your [pc.breasts].]]></playerSelf>
+		<playerNPC><![CDATA[You pull your bra back up to cover your [pc.breasts].]]></playerNPC>
+		<playerNPCRough><![CDATA[You slide [npc.her] bra back up to cover [npc.her] [npc.breasts].]]></playerNPCRough>
+		<NPCSelf><![CDATA[[npc.Name] pulls [npc.her] bra back up to cover [npc.her] [npc.breasts].]]></NPCSelf>
+		<NPCPlayer><![CDATA[[npc.Name] pulls your bra back up to cover your [pc.breasts].]]></NPCPlayer>
+		<NPCPlayerRough><![CDATA[[npc.Name] pulls your bra back up to cover your [pc.breasts].]]></NPCPlayerRough>
+		<NPCOtherNPC><![CDATA[[npc1.Name] manipulates [npc2.name]'s clothing.]]></NPCOtherNPC>
+		<NPCOtherNPCRough><![CDATA[[npc1.Name] manipulates [npc2.name]'s clothing.]]></NPCOtherNPCRough>
+	</replacementText>
+</clothing>

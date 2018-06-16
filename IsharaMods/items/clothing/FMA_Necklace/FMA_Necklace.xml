@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<clothing>
+	<coreAtributes>
+		<value>650</value>
+		<determiner>
+			<![CDATA[an]]>
+		</determiner>
+		<name>
+			<![CDATA[Elric family necklace]]>
+		</name>
+		<namePlural pluralByDefault="false">
+			<![CDATA[Elric family necklaces]]>
+		</namePlural>
+		<description>
+			<![CDATA[A necklace with the symbol of the Elric Family. The famous Fullmetal Alchemist comes from this family.]]>
+		</description>
+		<physicalResistance>0</physicalResistance> 
+		<femininity>ANDROGYNOUS</femininity>
+		<slot>NECK</slot> 
+		<rarity>UNCOMMON</rarity> 
+		<clothingSet/> 
+		<imageName>FMA_Necklace.svg</imageName> 
+		<imageEquippedName/> 
+		<enchantmentLimit>10</enchantmentLimit>
+		<effects/>
+		<blockedPartsList>
+			<blockedParts>
+			<displacementType>REMOVE_OR_EQUIP</displacementType>
+			<clothingAccessRequired>
+			</clothingAccessRequired>
+			<blockedBodyParts>
+			</blockedBodyParts>
+			<clothingAccessBlocked>
+			</clothingAccessBlocked>
+			<concealedSlots>
+			</concealedSlots>
+			</blockedParts>
+		</blockedPartsList>
+		<incompatibleSlots/> 
+		<primaryColours values="ALL_METAL"/> 
+		<primaryColoursDye values="ALL_METAL"/>
+		<secondaryColours values="ALL"/> 
+		<secondaryColoursDye values="ALL"/>
+		<itemTags>
+			<tag>SOLD_BY_NYAN</tag>
+			<tag>SOLD_BY_KATE</tag>
+			<tag>DOMINION_ALLEYWAY_SPAWN</tag>
+		</itemTags>
+	</coreAtributes>
+	<displacementText type="REMOVE_OR_EQUIP">
+		<playerSelf>
+		<![CDATA[You unequip your family necklace]]>
+		</playerSelf>
+		<playerNPC>
+		<![CDATA[You unequip your family necklace]]>
+		</playerNPC>
+		<playerNPCRough>
+		<![CDATA[You roughly unequip [npc.name]'s family necklace.]]>
+		</playerNPCRough>
+		<NPCSelf>
+		<![CDATA[[npc.Name]  [npc.her] family necklace.]]>
+		</NPCSelf>
+		<NPCPlayer>
+		<![CDATA[[npc.Name]  your family necklace.]]>
+		</NPCPlayer>
+		<NPCPlayerRough>
+		<![CDATA[[npc.Name] roughly  your family necklace.]]>
+		</NPCPlayerRough>
+		<NPCOtherNPC>
+		<![CDATA[[npc.Name]  [npc2.name]'s family necklace.]]>
+		</NPCOtherNPC>
+		<NPCOtherNPCRough>
+		<![CDATA[[npc.Name] roughly  [npc2.name]'s family necklace.]]>
+		</NPCOtherNPCRough>
+	</displacementText>
+	<replacementText type="REMOVE_OR_EQUIP">
+		<playerSelf>
+		<![CDATA[You  your family necklace]]>
+		</playerSelf>
+		<playerNPC>
+		<![CDATA[You  your family necklace]]>
+		</playerNPC>
+		<playerNPCRough>
+		<![CDATA[You roughly  [npc.name]'s family necklace.]]>
+		</playerNPCRough>
+		<NPCSelf>
+		<![CDATA[[npc.Name]  [npc.her] family necklace.]]>
+		</NPCSelf>
+		<NPCPlayer>
+		<![CDATA[[npc.Name]  your family necklace.]]>
+		</NPCPlayer>
+		<NPCPlayerRough>
+		<![CDATA[[npc.Name] roughly  your family necklace.]]>
+		</NPCPlayerRough>
+		<NPCOtherNPC>
+		<![CDATA[[npc.Name]  [npc2.name]'s family necklace.]]>
+		</NPCOtherNPC>
+		<NPCOtherNPCRough>
+		<![CDATA[[npc.Name] roughly  [npc2.name]'s family necklace.]]>
+		</NPCOtherNPCRough>
+	</replacementText>
+</clothing>

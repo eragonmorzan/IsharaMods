@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<clothing>
+	<coreAtributes>
+		<value>650</value>
+		<determiner>
+			<![CDATA[a]]>
+		</determiner>
+		<name>
+			<![CDATA[Deathly Hallows Necklace]]>
+		</name>
+		<namePlural pluralByDefault="false">
+			<![CDATA[Deathly Hallows Necklaces]]>
+		</namePlural>
+		<description>
+			<![CDATA[A necklace with the symbol of the Deathly Hallows. It is often associated with supporters of the Dark Wizard, Grindelwald.]]>
+		</description>
+		<physicalResistance>0</physicalResistance> 
+		<femininity>ANDROGYNOUS</femininity>
+		<slot>NECK</slot> 
+		<rarity>UNCOMMON</rarity> 
+		<clothingSet/> 
+		<imageName>DeathlyHallows_Necklace.svg</imageName> 
+		<imageEquippedName/> 
+		<enchantmentLimit>10</enchantmentLimit>
+		<effects/>
+		<blockedPartsList>
+			<blockedParts>
+			<displacementType>REMOVE_OR_EQUIP</displacementType>
+			<clothingAccessRequired>
+			</clothingAccessRequired>
+			<blockedBodyParts>
+			</blockedBodyParts>
+			<clothingAccessBlocked>
+			</clothingAccessBlocked>
+			<concealedSlots>
+			</concealedSlots>
+			</blockedParts>
+		</blockedPartsList>
+		<incompatibleSlots/> 
+		<primaryColours values="ALL_METAL"/> 
+		<primaryColoursDye values="ALL_METAL"/>
+		<secondaryColours values="ALL_METAL"/>
+		<secondaryColoursDye values="ALL_METAL"/>
+		<itemTags>
+			<tag>SOLD_BY_NYAN</tag>
+			<tag>SOLD_BY_KATE</tag>
+			<tag>DOMINION_ALLEYWAY_SPAWN</tag>
+		</itemTags>
+	</coreAtributes>
+	<displacementText type="REMOVE_OR_EQUIP">
+		<playerSelf>
+		<![CDATA[You unequip your Deathly Hallows necklace]]>
+		</playerSelf>
+		<playerNPC>
+		<![CDATA[You unequip your Deathly Hallows necklace]]>
+		</playerNPC>
+		<playerNPCRough>
+		<![CDATA[You roughly unequip [npc.name]'s Deathly Hallows necklace.]]>
+		</playerNPCRough>
+		<NPCSelf>
+		<![CDATA[[npc.Name]  [npc.her] Deathly Hallows necklace.]]>
+		</NPCSelf>
+		<NPCPlayer>
+		<![CDATA[[npc.Name]  your Deathly Hallows necklace.]]>
+		</NPCPlayer>
+		<NPCPlayerRough>
+		<![CDATA[[npc.Name] roughly  your Deathly Hallows necklace.]]>
+		</NPCPlayerRough>
+		<NPCOtherNPC>
+		<![CDATA[[npc.Name]  [npc2.name]'s Deathly Hallows necklace.]]>
+		</NPCOtherNPC>
+		<NPCOtherNPCRough>
+		<![CDATA[[npc.Name] roughly  [npc2.name]'s Deathly Hallows necklace.]]>
+		</NPCOtherNPCRough>
+	</displacementText>
+	<replacementText type="REMOVE_OR_EQUIP">
+		<playerSelf>
+		<![CDATA[You  your Deathly Hallows necklace]]>
+		</playerSelf>
+		<playerNPC>
+		<![CDATA[You  your Deathly Hallows necklace]]>
+		</playerNPC>
+		<playerNPCRough>
+		<![CDATA[You roughly  [npc.name]'s Deathly Hallows necklace.]]>
+		</playerNPCRough>
+		<NPCSelf>
+		<![CDATA[[npc.Name]  [npc.her] Deathly Hallows necklace.]]>
+		</NPCSelf>
+		<NPCPlayer>
+		<![CDATA[[npc.Name]  your Deathly Hallows necklace.]]>
+		</NPCPlayer>
+		<NPCPlayerRough>
+		<![CDATA[[npc.Name] roughly  your Deathly Hallows necklace.]]>
+		</NPCPlayerRough>
+		<NPCOtherNPC>
+		<![CDATA[[npc.Name]  [npc2.name]'s Deathly Hallows necklace.]]>
+		</NPCOtherNPC>
+		<NPCOtherNPCRough>
+		<![CDATA[[npc.Name] roughly  [npc2.name]'s Deathly Hallows necklace.]]>
+		</NPCOtherNPCRough>
+	</replacementText>
+</clothing>

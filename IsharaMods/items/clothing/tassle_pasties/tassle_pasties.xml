@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Made by Alicebun! -->
+<clothing>
+	<coreAtributes>
+		<value>150</value>
+		<determiner><![CDATA[a pair of]]></determiner>
+		<name><![CDATA[Tassle pasties]]></name>
+		<namePlural pluralByDefault="true"><![CDATA[Tassle pasties]]></namePlural>
+		<description><![CDATA[A pair of nipple pasties with rope tassles.]]></description>
+		<physicalResistance>1</physicalResistance>
+		<femininity>FEMININE</femininity>
+		<slot>NIPPLE</slot>
+		<rarity>UNCOMMON</rarity>
+		<clothingSet/>
+		<imageName>tassle_pasties.svg</imageName>
+		<imageEquippedName/>
+		<enchantmentLimit/>
+		<effects>
+		</effects>
+		<blockedPartsList>
+			<blockedParts>
+				<displacementType>REMOVE_OR_EQUIP</displacementType>
+				<clothingAccessRequired>
+					<clothingAccess>CHEST</clothingAccess>
+				</clothingAccessRequired>
+				<blockedBodyParts>
+					<bodyPart>NIPPLES</bodyPart>
+				</blockedBodyParts>
+				<clothingAccessBlocked/>
+				<concealedSlots>
+					<slot>PIERCING_NIPPLE</slot>
+				</concealedSlots>
+			</blockedParts>
+		</blockedPartsList>
+		<incompatibleSlots>
+		</incompatibleSlots>
+		<primaryColours values="ALL"/>
+		<primaryColoursDye values="ALL"/>
+		<secondaryColours values="ALL"/>
+		<secondaryColoursDye values="ALL"/>
+		<tertiaryColours values="ALL_METAL"/>
+		<tertiaryColoursDye values="ALL_METAL"/>
+		<itemTags>
+			<tag>PLUGS_NIPPLES</tag>
+			<tag>SOLD_BY_NYAN</tag>
+		</itemTags>
+	</coreAtributes>
+
+	<displacementText type="REMOVE_OR_EQUIP">
+		<playerSelf><![CDATA[
+			You wince as you peel the tassle pasties off your [pc.nipples].
+		]]></playerSelf>
+		<playerNPC><![CDATA[
+			[npc.Name] winces and lets out a little cry as you peel the tassle pasties off [npc.her] [npc.nipples].
+		]]></playerNPC>
+		<playerNPCRough><![CDATA[
+			[npc.Name] winces and [npc.moansVerb+] as you roughly tear the tassle pasties off [npc.her] [npc.nipples].
+		]]></playerNPCRough>
+		<NPCSelf><![CDATA[
+			[npc.Name] winces as [npc.she] peels the tassle pasties off [npc.her] [npc.nipples].
+		]]></NPCSelf>
+		<NPCPlayer><![CDATA[
+			You wince and let out a little cry as [npc.name] peels the tassle pasties off your [pc.nipples].
+		]]></NPCPlayer>
+		<NPCPlayerRough><![CDATA[
+			You wince and [pc.moanVerb+] as [npc.name] roughly tears the tassle pasties off your [pc.nipples].
+		]]></NPCPlayerRough>
+		<NPCOtherNPC><![CDATA[
+			[npc2.Name] winces and lets out a little cry as [npc1.name] peels the tassle pasties off [npc2.her] [npc2.nipples].
+		]]></NPCOtherNPC>
+		<NPCOtherNPCRough><![CDATA[
+			[npc2.Name] winces and [npc2.moansVerb+] as [npc1.name] roughly tears the tassle pasties off [npc2.her] [npc2.nipples].
+		]]></NPCOtherNPCRough>
+	</displacementText>
+
+	<replacementText type="REMOVE_OR_EQUIP">
+		<playerSelf><![CDATA[
+			You stick the tassle pasties over your [pc.nipples].
+		]]></playerSelf>
+		<playerNPC><![CDATA[
+			You stick the tassle pasties over [npc.name]'s [npc.nipples].
+		]]></playerNPC>
+		<playerNPCRough><![CDATA[
+			You stick the tassle pasties over [npc.name]'s [npc.nipples].
+		]]></playerNPCRough>
+		<NPCSelf><![CDATA[
+			[npc.Name] sticks the tassle pasties over [npc.her] [npc.nipples].
+		]]></NPCSelf>
+		<NPCPlayer><![CDATA[
+			[npc.Name] sticks the tassle pasties over your [pc.nipples].
+		]]></NPCPlayer>
+		<NPCPlayerRough><![CDATA[
+			[npc.Name] sticks the tassle pasties over your [pc.nipples].
+		]]></NPCPlayerRough>
+		<NPCOtherNPC><![CDATA[
+			[npc1.Name] sticks the tassle pasties over [npc2.name]'s [npc2.nipples].
+		]]></NPCOtherNPC>
+		<NPCOtherNPCRough><![CDATA[
+			[npc1.Name] sticks the tassle pasties over [npc2.name]'s [npc2.nipples].
+		]]></NPCOtherNPCRough>
+	</replacementText>
+	
+</clothing>

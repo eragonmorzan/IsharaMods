@@ -1637,9 +1637,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.8"
-     inkscape:cx="-10.407169"
-     inkscape:cy="140.41091"
+     inkscape:zoom="3.959798"
+     inkscape:cx="181.65597"
+     inkscape:cy="132.66022"
      inkscape:document-units="px"
      inkscape:current-layer="layer4"
      showgrid="false"
@@ -1720,14 +1720,14 @@
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cscsc" />
     <path
-       style="fill:#ffe6d5;fill-rule:evenodd;stroke:#000000;stroke-width:0.71282196;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#ffb380;fill-rule:evenodd;stroke:#000000;stroke-width:0.71282196;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 134.96735,191.60411 0.45638,-30.40616 1.70544,-0.16856 -0.12011,30.49982 z"
        id="path4463"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccc" />
     <path
        inkscape:connector-curvature="0"
-       style="opacity:1;fill:#ffe6d5;fill-opacity:1;stroke:#000000;stroke-width:0.89999998;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0pt;stroke-opacity:1"
+       style="opacity:1;fill:#ffb380;fill-opacity:1;stroke:#000000;stroke-width:0.89999998;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0pt;stroke-opacity:1"
        d="m 136.15586,169.82722 -36.724083,63.80733 h 73.472863 z m 0.99988,5.62897 11.28264,19.61498 c -3.21481,-2.29142 -7.08773,-3.70937 -11.28264,-3.90078 0,-6.00717 0,-14.83125 0,-15.7142 z m -1.97506,0.0494 c 0,0.90202 0,9.67652 0,15.66482 -4.17793,0.19325 -8.03747,1.59875 -11.24561,3.8761 z m 0,17.62757 c 0,15.59813 -1e-5,33.03805 0,38.37821 -10.14729,-0.52044 -18.2201,-8.90579 -18.2201,-19.18294 1e-5,-10.27714 8.07281,-18.67483 18.2201,-19.19527 z m 1.97506,0 c 10.15805,0.50819 18.2201,8.90987 18.2201,19.19527 -1e-5,10.28542 -8.06205,18.67475 -18.2201,19.18294 0,-5.34015 0,-22.78007 0,-38.37821 z m 20.10877,17.26958 12.22079,21.24442 h -24.65144 c 7.37453,-3.31525 12.51705,-10.72048 12.51705,-19.31873 0,-0.64603 -0.0295,-1.29424 -0.0864,-1.92569 z m -42.1926,0.0494 c -0.0541,0.61555 -0.0863,1.24696 -0.0863,1.87632 0,8.59824 5.15122,16.00348 12.5294,19.31874 h -24.63912 z"
        id="path2785"
        sodipodi:nodetypes="ccccccccccccccsccscccccsccsccc" />

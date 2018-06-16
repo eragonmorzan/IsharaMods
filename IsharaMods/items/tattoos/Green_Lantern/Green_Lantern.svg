@@ -2528,7 +2528,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="3.959798"
-     inkscape:cx="170.59025"
+     inkscape:cx="129.04773"
      inkscape:cy="107.30308"
      inkscape:document-units="px"
      inkscape:current-layer="g6"
@@ -2562,12 +2562,12 @@
        id="g6">
       <path
          inkscape:connector-curvature="0"
-         style="fill:#ffd5d5;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+         style="fill:#ff8080;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
          d="m 260.65577,347.27514 v 19.86333 h 23.73356 a 48.239492,47.388207 0 0 0 -25.43591,41.71299 48.239492,47.388207 0 0 0 28.96476,43.41531 h -28.39679 v 18.16098 h 96.47834 v -18.16098 h -29.61498 a 48.239492,47.388207 0 0 0 29.04855,-43.41531 48.239492,47.388207 0 0 0 -25.37849,-41.71299 h 26.51289 v -19.86333 z m 45.96961,32.34931 a 27.808651,27.808651 0 0 1 27.80867,27.80864 27.808651,27.808651 0 0 1 -27.80867,27.80864 27.808651,27.808651 0 0 1 -27.80864,-27.80864 27.808651,27.808651 0 0 1 27.80864,-27.80864 z"
          id="path28" />
       <path
          inkscape:connector-curvature="0"
-         style="fill:#ffe6d5;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+         style="fill:#ffb380;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
          d="M 308.378,297.33575 A 109.97023,109.97023 0 0 0 198.40802,407.30742 109.97023,109.97023 0 0 0 308.378,517.2774 109.97023,109.97023 0 0 0 418.34798,407.30742 109.97023,109.97023 0 0 0 308.378,297.33575 Z m 0,23.47823 a 86.493434,86.493434 0 0 1 86.49344,86.49344 86.493434,86.493434 0 0 1 -86.49344,86.49343 86.493434,86.493434 0 0 1 -86.49343,-86.49343 86.493434,86.493434 0 0 1 86.49343,-86.49344 z"
          id="path21" />
     </g>

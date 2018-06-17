@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<clothing>
+<coreAtributes>
+<value>800</value>
+<determiner>
+<![CDATA[a]]>
+</determiner>
+<name>
+<![CDATA[Holy Ring]]>
+</name>
+<namePlural pluralByDefault="false">
+<![CDATA[Holy Rings]]>
+</namePlural>
+<description>
+<![CDATA[A ring that fits onto a person's tail. It has been forged from holy metal and inscribed with mystic symbols. It is rumoured that only the Digidestined can read the inscribed Digicode on the ring.]]>
+</description>
+<physicalResistance>3</physicalResistance> 
+<femininity>ANDROGYNOUS</femininity>
+<slot>TAIL</slot> 
+<rarity>RARE</rarity> 
+<clothingSet/> 
+<imageName>HolyTailRing.svg</imageName> 
+<imageEquippedName/> 
+<enchantmentLimit>15</enchantmentLimit>
+<effects>
+</effects>
+<blockedPartsList>
+<blockedParts>
+<displacementType>REMOVE_OR_EQUIP</displacementType>
+<clothingAccessRequired>
+<clothingAccess>TAIL</clothingAccess>
+</clothingAccessRequired>
+<blockedBodyParts>
+</blockedBodyParts>
+<clothingAccessBlocked>
+</clothingAccessBlocked>
+<concealedSlots>
+</concealedSlots>
+</blockedParts>
+</blockedPartsList>
+<incompatibleSlots/> 
+<primaryColours values="JUST_GOLD"/> 
+<primaryColoursDye values="ALL_METAL"/>
+
+<itemTags>
+<tag>SOLD_BY_NYAN</tag>
+<tag>SOLD_BY_KATE</tag>
+</itemTags>
+</coreAtributes>
+
+<displacementText type="REMOVE_OR_EQUIP">
+<playerSelf>
+<![CDATA[You remove your holy ring.]]>
+</playerSelf>
+<playerNPC>
+<![CDATA[You remove [npc.name]'s holy ring.]]>
+</playerNPC>
+<playerNPCRough>
+<![CDATA[You rip off [npc.name]'s holy ring.]]>
+</playerNPCRough>
+<NPCSelf>
+<![CDATA[[npc.Name] removes [npc.her] holy ring.]]>
+</NPCSelf>
+<NPCPlayer>
+<![CDATA[[npc.Name] removes your holy ring.]]>
+</NPCPlayer>
+<NPCPlayerRough>
+<![CDATA[[npc.Name] rips off your holy ring.]]>
+</NPCPlayerRough>
+<NPCOtherNPC>
+<![CDATA[[npc.Name] removes [npc2.name]'s holy ring.]]>
+</NPCOtherNPC>
+<NPCOtherNPCRough>
+<![CDATA[[npc.Name] rips off  [npc2.name]'s holy ring.]]>
+</NPCOtherNPCRough>
+</displacementText>
+
+<replacementText type="REMOVE_OR_EQUIP">
+<playerSelf>
+<![CDATA[You slide on the holy ring onto your tail.]]>
+</playerSelf>
+<playerNPC>
+<![CDATA[You slide on the holy ring on [npc.name]'s tail.]]>
+</playerNPC>
+<playerNPCRough>
+<![CDATA[You forcefully slams the holy ring onto [npc.name]'s tail.]]>
+</playerNPCRough>
+<NPCSelf>
+<![CDATA[[npc.Name] slides the holy ring onto [npc.her] tail.]]>
+</NPCSelf>
+<NPCPlayer>
+<![CDATA[[npc.Name] slides the holy ring onto your tail.]]>
+</NPCPlayer>
+<NPCPlayerRough>
+<![CDATA[[npc.Name] forcefully slams the holy ring onto your tail.]]>
+</NPCPlayerRough>
+<NPCOtherNPC>
+<![CDATA[[npc.Name] slides on the holy ring onto [npc2.name]'s tail.]]>
+</NPCOtherNPC>
+<NPCOtherNPCRough>
+<![CDATA[[npc.Name] forcefully slams on the holy ring onto [npc2.name]'s tail.]]>
+</NPCOtherNPCRough>
+</replacementText>
+
+</clothing>

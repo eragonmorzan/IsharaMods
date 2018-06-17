@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<clothing>
+<coreAtributes>
+<value>800</value>
+<determiner>
+<![CDATA[a pair of]]>
+</determiner>
+<name>
+<![CDATA[Royal Horn Rings]]>
+</name>
+<namePlural pluralByDefault="true">
+<![CDATA[Royal Horn Rings]]>
+</namePlural>
+<description>
+<![CDATA[A ring that fits onto a person's horns. It is said to have been forged by devoted servants of the Liln to celebrate the divine corruption of the daughters of Lilith.]]>
+</description>
+<physicalResistance>2</physicalResistance> 
+<femininity>FEMININE</femininity>
+<slot>HORNS</slot> 
+<rarity>RARE</rarity> 
+<clothingSet/> 
+<imageName>RoyalHornRings.svg</imageName> 
+<imageEquippedName/> 
+<enchantmentLimit>15</enchantmentLimit>
+<effects>
+</effects>
+<blockedPartsList>
+<blockedParts>
+<displacementType>REMOVE_OR_EQUIP</displacementType>
+<clothingAccessRequired>
+</clothingAccessRequired>
+<blockedBodyParts>
+</blockedBodyParts>
+<clothingAccessBlocked>
+</clothingAccessBlocked>
+<concealedSlots>
+</concealedSlots>
+</blockedParts>
+</blockedPartsList>
+<incompatibleSlots/> 
+<primaryColours values="JUST_GOLD"/> 
+<primaryColoursDye values="ALL_METAL"/>
+<secondaryColours values="ALL_METAL"/>
+<secondaryColoursDye values="ALL_METAL"/>
+
+<itemTags>
+<tag>SOLD_BY_NYAN</tag>
+<tag>SOLD_BY_KATE</tag>
+</itemTags>
+</coreAtributes>
+
+<displacementText type="REMOVE_OR_EQUIP">
+<playerSelf>
+<![CDATA[You remove your royal horn rings.]]>
+</playerSelf>
+<playerNPC>
+<![CDATA[You remove [npc.name]'s royal horn rings.]]>
+</playerNPC>
+<playerNPCRough>
+<![CDATA[You rip off [npc.name]'s royal horn rings.]]>
+</playerNPCRough>
+<NPCSelf>
+<![CDATA[[npc.Name] removes [npc.her] royal horn rings.]]>
+</NPCSelf>
+<NPCPlayer>
+<![CDATA[[npc.Name] removes your royal horn rings.]]>
+</NPCPlayer>
+<NPCPlayerRough>
+<![CDATA[[npc.Name] rips off your royal horn rings.]]>
+</NPCPlayerRough>
+<NPCOtherNPC>
+<![CDATA[[npc.Name] removes [npc2.name]'s royal horn rings.]]>
+</NPCOtherNPC>
+<NPCOtherNPCRough>
+<![CDATA[[npc.Name] rips off  [npc2.name]'s royal horn rings.]]>
+</NPCOtherNPCRough>
+</displacementText>
+
+<replacementText type="REMOVE_OR_EQUIP">
+<playerSelf>
+<![CDATA[You slide on the royal horn rings onto your horns.]]>
+</playerSelf>
+<playerNPC>
+<![CDATA[You slide on the royal horn rings on [npc.name]'s horns.]]>
+</playerNPC>
+<playerNPCRough>
+<![CDATA[You forcefully slams the royal horn rings onto [npc.name]'s horns.]]>
+</playerNPCRough>
+<NPCSelf>
+<![CDATA[[npc.Name] slides the royal horn rings onto [npc.her] horns.]]>
+</NPCSelf>
+<NPCPlayer>
+<![CDATA[[npc.Name] slides the royal horn rings onto your horns.]]>
+</NPCPlayer>
+<NPCPlayerRough>
+<![CDATA[[npc.Name] forcefully slams the royal horn rings onto your horns.]]>
+</NPCPlayerRough>
+<NPCOtherNPC>
+<![CDATA[[npc.Name] slides on the royal horn rings onto [npc2.name]'s horns.]]>
+</NPCOtherNPC>
+<NPCOtherNPCRough>
+<![CDATA[[npc.Name] forcefully slams on the royal horn rings onto [npc2.name]'s horns.]]>
+</NPCOtherNPCRough>
+</replacementText>
+
+</clothing>

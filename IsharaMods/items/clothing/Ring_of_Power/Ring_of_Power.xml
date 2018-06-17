@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<clothing>
+	<coreAtributes>
+		<value>800</value>
+		<determiner>
+		<![CDATA[a]]>
+		</determiner>
+		<name>
+		<![CDATA[Ring of Power]]>
+		</name>
+		<namePlural pluralByDefault="false">
+		<![CDATA[Rings of Power]]>
+		</namePlural>
+		<description>
+		<![CDATA[A Ring of Power forged in the fires of the Mount Doom by the Dark Lord Sauron himself. The bearer of this ring is both blessed with great power and cursed with the taint of Sauron. It's power is addictive and non-arcane wearers find themselves unable to remove it from their person.]]>
+		</description>
+		<physicalResistance>3</physicalResistance> 
+		<femininity>ANDROGYNOUS</femininity>
+		<slot>FINGER</slot> 
+		<rarity>UNCOMMON</rarity> 
+		<clothingSet/> 
+		<imageName>Ring_of_Power.svg</imageName> 
+		<imageEquippedName/> 
+		<enchantmentLimit>10</enchantmentLimit>
+		<effects>
+		</effects>
+		<blockedPartsList>
+		<blockedParts>
+		<displacementType>REMOVE_OR_EQUIP</displacementType>
+		<clothingAccessRequired>
+		<clothingAccess>FINGERS</clothingAccess>
+		</clothingAccessRequired>
+		<blockedBodyParts>
+		</blockedBodyParts>
+		<clothingAccessBlocked>
+		</clothingAccessBlocked>
+		<concealedSlots>
+		</concealedSlots>
+		</blockedParts>
+		</blockedPartsList>
+		<incompatibleSlots/> 
+		<primaryColours values="JUST_GOLD"/> 
+		<primaryColoursDye values="ALL_METAL"/>
+
+		<itemTags>
+		<tag>SOLD_BY_NYAN</tag>
+		</itemTags>
+	</coreAtributes>
+
+	<displacementText type="REMOVE_OR_EQUIP">
+		<playerSelf>
+		<![CDATA[You remove your Ring of Power.]]>
+		</playerSelf>
+		<playerNPC>
+		<![CDATA[You remove [npc.name]'s Ring of Power.]]>
+		</playerNPC>
+		<playerNPCRough>
+		<![CDATA[You rip off [npc.name]'s Ring of Power.]]>
+		</playerNPCRough>
+		<NPCSelf>
+		<![CDATA[[npc.Name] removes [npc.her] Ring of Power.]]>
+		</NPCSelf>
+		<NPCPlayer>
+		<![CDATA[[npc.Name] removes your Ring of Power.]]>
+		</NPCPlayer>
+		<NPCPlayerRough>
+		<![CDATA[[npc.Name] rips off your Ring of Power.]]>
+		</NPCPlayerRough>
+		<NPCOtherNPC>
+		<![CDATA[[npc.Name] removes [npc2.name]'s Ring of Power.]]>
+		</NPCOtherNPC>
+		<NPCOtherNPCRough>
+		<![CDATA[[npc.Name] rips off  [npc2.name]'s Ring of Power.]]>
+		</NPCOtherNPCRough>
+	</displacementText>
+
+	<replacementText type="REMOVE_OR_EQUIP">
+		<playerSelf>
+		<![CDATA[You slide on the Ring of Power onto your finger.]]>
+		</playerSelf>
+		<playerNPC>
+		<![CDATA[You slide on the Ring of Power on [npc.name]'s finger.]]>
+		</playerNPC>
+		<playerNPCRough>
+		<![CDATA[You forcefully slams the Ring of Power onto [npc.name]'s finger.]]>
+		</playerNPCRough>
+		<NPCSelf>
+		<![CDATA[[npc.Name] slides the Ring of Power onto [npc.her] finger.]]>
+		</NPCSelf>
+		<NPCPlayer>
+		<![CDATA[[npc.Name] slides the Ring of Power onto your finger.]]>
+		</NPCPlayer>
+		<NPCPlayerRough>
+		<![CDATA[[npc.Name] forcefully slams the Ring of Power onto your finger.]]>
+		</NPCPlayerRough>
+		<NPCOtherNPC>
+		<![CDATA[[npc.Name] slides on the Ring of Power onto [npc2.name]'s finger.]]>
+		</NPCOtherNPC>
+		<NPCOtherNPCRough>
+		<![CDATA[[npc.Name] forcefully slams on the Ring of Power onto [npc2.name]'s finger.]]>
+		</NPCOtherNPCRough>
+	</replacementText>
+
+</clothing>

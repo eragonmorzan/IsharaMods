@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<clothing>
+<coreAtributes>
+<value>200</value>
+<determiner>
+<![CDATA[a pair of]]>
+</determiner>
+<name>
+<![CDATA[Printed nipple bars]]>
+</name>
+<namePlural pluralByDefault="true">
+<![CDATA[Printed nipple bars]]>
+</namePlural>
+<description>
+<![CDATA[A pair of bars that are designed to fit into nipple piercings. The words "Lick Me" are printed on each of them.]]>
+</description>
+<physicalResistance>0</physicalResistance> 
+<femininity>ANDROGYNOUS</femininity>
+<slot>PIERCING_NIPPLE</slot> 
+<rarity>COMMON</rarity> 
+<clothingSet/> 
+<imageName>LickMeNipplePiercing.svg</imageName> 
+<imageEquippedName/> 
+<enchantmentLimit/>
+<effects>
+<effect itemEffectType="CLOTHING" limit="0" potency="MAJOR_BOOST" primaryModifier="CLOTHING_ATTRIBUTE" secondaryModifier="DAMAGE_LUST" timer="0"/>
+<effect itemEffectType="CLOTHING" limit="0" potency="MAJOR_BOOST" primaryModifier="CLOTHING_ATTRIBUTE" secondaryModifier="RESISTANCE_LUST" timer="0"/>
+</effects>
+<blockedPartsList>
+<blockedParts>
+<displacementType>REMOVE_OR_EQUIP</displacementType>
+<clothingAccessRequired>
+</clothingAccessRequired>
+<blockedBodyParts>
+</blockedBodyParts>
+<clothingAccessBlocked>
+</clothingAccessBlocked>
+<concealedSlots>
+</concealedSlots>
+</blockedParts>
+</blockedPartsList>
+<incompatibleSlots/> 
+<primaryColours values="ALL_METAL"/> 
+<primaryColoursDye values="ALL_METAL"/>
+<secondaryColours values="JUST_PINK"/>
+<secondaryColoursDye values="ALL"/>
+<itemTags>
+<tag>SOLD_BY_KATE</tag>
+</itemTags>
+</coreAtributes>
+<displacementText type="REMOVE_OR_EQUIP">
+<playerSelf>
+<![CDATA[You unequip your printed nipple bars]]>
+</playerSelf>
+<playerNPC>
+<![CDATA[You unequip your printed nipple bars]]>
+</playerNPC>
+<playerNPCRough>
+<![CDATA[You roughly unequip [npc.name]'s printed nipple bars.]]>
+</playerNPCRough>
+<NPCSelf>
+<![CDATA[[npc.Name]  [npc.her] printed nipple bars.]]>
+</NPCSelf>
+<NPCPlayer>
+<![CDATA[[npc.Name]  your printed nipple bars.]]>
+</NPCPlayer>
+<NPCPlayerRough>
+<![CDATA[[npc.Name] roughly  your printed nipple bars.]]>
+</NPCPlayerRough>
+<NPCOtherNPC>
+<![CDATA[[npc.Name]  [npc2.name]'s printed nipple bars.]]>
+</NPCOtherNPC>
+<NPCOtherNPCRough>
+<![CDATA[[npc.Name] roughly  [npc2.name]'s printed nipple bars.]]>
+</NPCOtherNPCRough>
+</displacementText>
+
+<replacementText type="REMOVE_OR_EQUIP">
+<playerSelf>
+<![CDATA[You  your printed nipple bars]]>
+</playerSelf>
+<playerNPC>
+<![CDATA[You  your printed nipple bars]]>
+</playerNPC>
+<playerNPCRough>
+<![CDATA[You roughly  [npc.name]'s printed nipple bars.]]>
+</playerNPCRough>
+<NPCSelf>
+<![CDATA[[npc.Name]  [npc.her] printed nipple bars.]]>
+</NPCSelf>
+<NPCPlayer>
+<![CDATA[[npc.Name]  your printed nipple bars.]]>
+</NPCPlayer>
+<NPCPlayerRough>
+<![CDATA[[npc.Name] roughly  your printed nipple bars.]]>
+</NPCPlayerRough>
+<NPCOtherNPC>
+<![CDATA[[npc.Name]  [npc2.name]'s printed nipple bars.]]>
+</NPCOtherNPC>
+<NPCOtherNPCRough>
+<![CDATA[[npc.Name] roughly  [npc2.name]'s printed nipple bars.]]>
+</NPCOtherNPCRough>
+</replacementText>
+
+</clothing>

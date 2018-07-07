@@ -30,6 +30,8 @@
 			<slot>MOUTH</slot>
 			<slot>ANUS</slot>
 			<slot>GROIN</slot>
+			<slot>VAGINA</slot>
+			<slot>PENIS</slot>
 			<slot>EYES</slot>
 			<slot>STOMACH</slot>
 		</slotAvailability> 

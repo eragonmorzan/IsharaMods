@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<clothing>
+<coreAtributes>
+<value>750</value>
+<determiner>
+<![CDATA[a]]>
+</determiner>
+<name>
+<![CDATA[Sheer Bodysuit]]>
+</name>
+<namePlural pluralByDefault="false">
+<![CDATA[Sheer bodysuits]]>
+</namePlural>
+<description>
+<![CDATA[A transparent bodysuit with a creeping pattern and long sleeves.]]>
+</description>
+<physicalResistance>1</physicalResistance> 
+<femininity>FEMININE</femininity>
+<slot>STOMACH</slot> 
+<rarity>COMMON</rarity> 
+<clothingSet/> 
+<imageName>SheerPatternSuit.svg</imageName> 
+<imageEquippedName/> 
+<enchantmentLimit/>
+<effects/>
+<blockedPartsList>
+<blockedParts>
+<displacementType>REMOVE_OR_EQUIP</displacementType>
+<clothingAccessRequired>
+<clothingAccess>LEGS_UP_TO_GROIN</clothingAccess>
+<clothingAccess>GROIN</clothingAccess>
+<clothingAccess>WAIST</clothingAccess>
+<clothingAccess>CHEST</clothingAccess>
+</clothingAccessRequired>
+<blockedBodyParts>
+<bodyPart>STOMACH</bodyPart>
+<bodyPart>BACK</bodyPart>
+</blockedBodyParts>
+<clothingAccessBlocked>
+<clothingAccess>WAIST</clothingAccess>
+</clothingAccessBlocked>
+<concealedSlots>
+<slot>PIERCING_STOMACH</slot>
+</concealedSlots>
+</blockedParts>
+<blockedParts>
+<displacementType>SHIFTS_ASIDE</displacementType>
+<clothingAccessRequired>
+</clothingAccessRequired>
+<blockedBodyParts>
+<bodyPart>ANUS</bodyPart>
+<bodyPart>PENIS</bodyPart>
+<bodyPart>VAGINA</bodyPart>
+</blockedBodyParts>
+<clothingAccessBlocked>
+<clothingAccess>GROIN</clothingAccess>
+</clothingAccessBlocked>
+<concealedSlots>
+<slot>VAGINA</slot>
+<slot>ANUS</slot>
+<slot>PENIS</slot>
+<slot>PIERCING_PENIS</slot>
+<slot>PIERCING_VAGINA</slot>
+</concealedSlots>
+</blockedParts>
+</blockedPartsList>
+<incompatibleSlots/> 
+<primaryColours values="ALL"/> 
+<primaryColoursDye values="ALL"/>
+<itemTags>
+<tag>SOLD_BY_NYAN</tag>
+</itemTags>
+</coreAtributes>
+<displacementText type="REMOVE_OR_EQUIP">
+<playerSelf>
+<![CDATA[You take off your sheer bodysuit.]]>
+</playerSelf>
+<playerNPC>
+<![CDATA[You take off [npc.name]'s sheer bodysuit .]]>
+</playerNPC>
+<playerNPCRough>
+<![CDATA[You pull down [npc.name]'s sheer bodysuit impatiently.]]>
+</playerNPCRough>
+<NPCSelf>
+<![CDATA[[npc.Name] takes off [npc.her] sheer bodysuit.]]>
+</NPCSelf>
+<NPCPlayer>
+<![CDATA[[npc.Name] takes off your bodysuit.]]>
+</NPCPlayer>
+<NPCPlayerRough>
+<![CDATA[[npc.Name] pulls down your bodysuit roughly.]]>
+</NPCPlayerRough>
+<NPCOtherNPC>
+<![CDATA[[npc.Name] takes off [npc2.her] sheer bodysuit.]]>
+</NPCOtherNPC>
+<NPCOtherNPCRough>
+<![CDATA[[npc.Name] pulls down [npc2.her] sheer bodysuit roughly.]]>
+</NPCOtherNPCRough>
+</displacementText>
+
+<displacementText type="SHIFTS_ASIDE">
+<playerSelf>
+<![CDATA[You pull the lower part of your sheer bodysuit to one side.]]>
+</playerSelf>
+<playerNPC>
+<![CDATA[You pull the lower part of [npc.name]'s sheer bodysuit to one side.]]>
+</playerNPC>
+<playerNPCRough>
+<![CDATA[You pull the lower part of [npc.name]'s sheer bodysuit to one side roughly.]]>
+</playerNPCRough>
+<NPCSelf>
+<![CDATA[[npc.Name] pulls the lower part of [npc.her] sheer bodysuit to one side.]]>
+</NPCSelf>
+<NPCPlayer>
+<![CDATA[[npc.Name] pulls the lower part of your sheer bodysuit to one side.]]>
+</NPCPlayer>
+<NPCPlayerRough>
+<![CDATA[[npc.Name] pulls the lower part of your sheer bodysuit to one side roughly.]]>
+</NPCPlayerRough>
+<NPCOtherNPC>
+<![CDATA[[npc.Name] pulls the lower part of [npc2.her] sheer bodysuit to one side.]]>
+</NPCOtherNPC>
+<NPCOtherNPCRough>
+<![CDATA[[npc.Name] pulls the lower part of [npc2.her] sheer bodysuit to one side roughly.]]>
+</NPCOtherNPCRough>
+</displacementText>
+
+<replacementText type="REMOVE_OR_EQUIP">
+<playerSelf>
+<![CDATA[You put on your sheer bodysuit.]]>
+</playerSelf>
+<playerNPC>
+<![CDATA[You slip the sheer bodysuit onto [npc.name].]]>
+</playerNPC>
+<playerNPCRough>
+<![CDATA[[You slip on the sheer bodysuit roughly onto [npc.name].]]>
+</playerNPCRough>
+<NPCSelf>
+<![CDATA[[npc.Name] slips on [npc.her] sheer bodysuit back into its correct position.]]>
+</NPCSelf>
+<NPCPlayer>
+<![CDATA[[npc.Name] makes you step into the sheer bodysuit.]]>
+</NPCPlayer>
+<NPCPlayerRough>
+<![CDATA[[npc.Name] makes you step into the sheer bodysuit roughly.]]>
+</NPCPlayerRough>
+<NPCOtherNPC>
+<![CDATA[[npc.Name] makes [npc2.name] step into the sheer bodysuit.]]>
+</NPCOtherNPC>
+<NPCOtherNPCRough>
+<![CDATA[[npc.Name] makes [npc2.name] step into the sheer bodysuit roughly.]]>
+</NPCOtherNPCRough>
+</replacementText>
+
+<replacementText type="PULLS_DOWN">
+<playerSelf>
+<![CDATA[You pull your sheer bodysuit back up into its correct position.]]>
+</playerSelf>
+<playerNPC>
+<![CDATA[You pull [npc.name]'s sheer bodysuit back up into its correct position.]]>
+</playerNPC>
+<playerNPCRough>
+<![CDATA[You pull [npc.name]'s sheer bodysuit back up into its correct position roughly.]]>
+</playerNPCRough>
+<NPCSelf>
+<![CDATA[[npc.Name] pulls [npc.her] sheer bodysuit up into its correct position.]]>
+</NPCSelf>
+<NPCPlayer>
+<![CDATA[[npc.Name] pulls your sheer bodysuit back up into its correct position.]]>
+</NPCPlayer>
+<NPCPlayerRough>
+<![CDATA[[npc.Name] pulls your sheer bodysuit back up into its correct position roughly.]]>
+</NPCPlayerRough>
+<NPCOtherNPC>
+<![CDATA[[npc.Name] pulls [npc2.her] sheer bodysuit back up into its correct position.]]>
+</NPCOtherNPC>
+<NPCOtherNPCRough>
+<![CDATA[[npc.Name] pulls [npc2.her] sheer bodysuit back up into its correct position roughly.]]>
+</NPCOtherNPCRough>
+</replacementText>
+
+</clothing>

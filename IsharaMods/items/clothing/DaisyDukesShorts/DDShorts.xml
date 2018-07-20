@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<clothing>
+	<coreAtributes>
+		<value>500</value>
+		<determiner><![CDATA[a pair of]]></determiner>
+		<name><![CDATA[Hot Shorts]]></name>
+		<namePlural pluralByDefault="true"><![CDATA[Hot Shorts]]></namePlural>
+		<description>
+			<![CDATA[A pair of distinctly feminine, extremely short shorts, made from soft jeans material. They are torn and frayed and barely cover the top part of your ass.]]>
+		</description>
+		<physicalResistance>1</physicalResistance> 
+		<femininity>FEMININE</femininity>
+		<slot>LEG</slot> 
+		<rarity>UNCOMMON</rarity> 
+		<clothingSet/> 
+		<imageName>DDShorts.svg</imageName> 
+		<imageEquippedName/> 
+		<enchantmentLimit/>
+		<effects/>
+		<blockedPartsList>
+			<blockedParts>
+				<displacementType>REMOVE_OR_EQUIP</displacementType>
+				<clothingAccessRequired>
+				<clothingAccess>LEGS_UP_TO_GROIN</clothingAccess>
+				</clothingAccessRequired>
+				<blockedBodyParts>
+				</blockedBodyParts>
+				<clothingAccessBlocked>
+				<clothingAccess>LEGS_UP_TO_GROIN</clothingAccess>
+				</clothingAccessBlocked>
+				<concealedSlots>
+				</concealedSlots>
+			</blockedParts>
+			<blockedParts>
+				<displacementType>PULLS_DOWN</displacementType>
+				<clothingAccessRequired>
+				</clothingAccessRequired>
+				<blockedBodyParts>
+				<bodyPart>ANUS</bodyPart>
+				<bodyPart>PENIS</bodyPart>
+				<bodyPart>VAGINA</bodyPart>
+				</blockedBodyParts>
+				<clothingAccessBlocked>
+				<clothingAccess>GROIN</clothingAccess>
+				</clothingAccessBlocked>
+				<concealedSlots>
+				<slot>GROIN</slot>
+				<slot>VAGINA</slot>
+				<slot>ANUS</slot>
+				<slot>PENIS</slot>
+				<slot>PIERCING_PENIS</slot>
+				<slot>PIERCING_VAGINA</slot>
+				</concealedSlots>
+			</blockedParts>
+			<blockedParts>
+				<displacementType>UNZIPS</displacementType>
+				<clothingAccessRequired>
+				</clothingAccessRequired>
+				<blockedBodyParts>
+				<bodyPart>PENIS</bodyPart>
+				</blockedBodyParts>
+				<clothingAccessBlocked>
+				<clothingAccess>GROIN</clothingAccess>
+				</clothingAccessBlocked>
+				<concealedSlots>
+				<slot>GROIN</slot>
+				<slot>PENIS</slot>
+				<slot>PIERCING_PENIS</slot>
+				</concealedSlots>
+				</blockedParts>
+		</blockedPartsList>
+		<incompatibleSlots/> 
+		<primaryColours values="ALL"/> 
+		<primaryColoursDye values="ALL"/>
+		<secondaryColours values="ALL_METAL"/>
+		<secondaryColours values="ALL_METAL"/>
+		<itemTags>
+		<tag>SOLD_BY_NYAN</tag>
+		</itemTags>
+	</coreAtributes>
+	
+	<displacementText type="REMOVE_OR_EQUIP">
+	<playerSelf>
+	<![CDATA[You remove your hot shorts.]]>
+	</playerSelf>
+	<playerNPC>
+	<![CDATA[You remove [npc.Name]'s hot shorts.]]>
+	</playerNPC>
+	<playerNPCRough>
+	<![CDATA[You roughly remove [npc.name]'s hot shorts.]]>
+	</playerNPCRough>
+	<NPCSelf>
+	<![CDATA[[npc.Name] removes [npc.her] hot shorts.]]>
+	</NPCSelf>
+	<NPCPlayer>
+	<![CDATA[[npc.Name] removes your hot shorts.]]>
+	</NPCPlayer>
+	<NPCPlayerRough>
+	<![CDATA[[npc.Name] rips off your hot shorts.]]>
+	</NPCPlayerRough>
+	<NPCOtherNPC>
+	<![CDATA[[npc.Name] removes [npc2.name]'s hot shorts.]]>
+	</NPCOtherNPC>
+	<NPCOtherNPCRough>
+	<![CDATA[[npc.Name] roughly rips off [npc2.name]'s hot shorts.]]>
+	</NPCOtherNPCRough>
+	</displacementText>
+	
+	<displacementText type="PULLS_DOWN">
+	<playerSelf>
+	<![CDATA[You pull down your hot shorts.]]>
+	</playerSelf>
+	<playerNPC>
+	<![CDATA[You pull down [npc.Name]'s hot shorts.]]>
+	</playerNPC>
+	<playerNPCRough>
+	<![CDATA[You roughly pull down [npc.name]'s hot shorts.]]>
+	</playerNPCRough>
+	<NPCSelf>
+	<![CDATA[[npc.Name] pulls down [npc.her] hot shorts.]]>
+	</NPCSelf>
+	<NPCPlayer>
+	<![CDATA[[npc.Name] pulls down your hot shorts.]]>
+	</NPCPlayer>
+	<NPCPlayerRough>
+	<![CDATA[[npc.Name] roughly pulls down your hot shorts.]]>
+	</NPCPlayerRough>
+	<NPCOtherNPC>
+	<![CDATA[[npc.Name] pulls down [npc2.name]'s hot shorts.]]>
+	</NPCOtherNPC>
+	<NPCOtherNPCRough>
+	<![CDATA[[npc.Name] roughly pulls down [npc2.name]'s hot shorts.]]>
+	</NPCOtherNPCRough>
+	</displacementText>
+	
+	<displacementText type="UNZIPS">
+	<playerSelf>
+	<![CDATA[You unzip your hot shorts.]]>
+	</playerSelf>
+	<playerNPC>
+	<![CDATA[You unzip [npc.Name]'s hot shorts.]]>
+	</playerNPC>
+	<playerNPCRough>
+	<![CDATA[You roughly unzip [npc.name]'s hot shorts.]]>
+	</playerNPCRough>
+	<NPCSelf>
+	<![CDATA[[npc.Name] unzips [npc.her] hot shorts.]]>
+	</NPCSelf>
+	<NPCPlayer>
+	<![CDATA[[npc.Name] unzips your hot shorts.]]>
+	</NPCPlayer>
+	<NPCPlayerRough>
+	<![CDATA[[npc.Name] roughly unzips your hot shorts.]]>
+	</NPCPlayerRough>
+	<NPCOtherNPC>
+	<![CDATA[[npc.Name] unzips [npc2.name]'s hot shorts.]]>
+	</NPCOtherNPC>
+	<NPCOtherNPCRough>
+	<![CDATA[[npc.Name] roughly unzips [npc2.name]'s hot shorts.]]>
+	</NPCOtherNPCRough>
+	</displacementText>
+	
+	<replacementText type="REMOVE_OR_EQUIP">
+	<playerSelf>
+	<![CDATA[You put on your hot shorts.]]>
+	</playerSelf>
+	<playerNPC>
+	<![CDATA[You slide the tight hot shorts onto [npc.Name].]]>
+	</playerNPC>
+	<playerNPCRough>
+	<![CDATA[You roughly put on [npc.name]'s hot shorts.]]>
+	</playerNPCRough>
+	<NPCSelf>
+	<![CDATA[[npc.Name] wears [npc.her] hot shorts.]]>
+	</NPCSelf>
+	<NPCPlayer>
+	<![CDATA[[npc.Name] puts on the hot shorts on you.]]>
+	</NPCPlayer>
+	<NPCPlayerRough>
+	<![CDATA[[npc.Name] roughly puts on your hot shorts back.]]>
+	</NPCPlayerRough>
+	<NPCOtherNPC>
+	<![CDATA[[npc.Name] puts on [npc2.name]'s hot shorts on [npc.her].]]>
+	</NPCOtherNPC>
+	<NPCOtherNPCRough>
+	<![CDATA[[npc.Name] roughly puts on [npc2.name]'s hot shorts on [npc.her].]]>
+	</NPCOtherNPCRough>
+	</replacementText>
+	
+	<replacementText type="PULLS_DOWN">
+	<playerSelf>
+	<![CDATA[You pull up your hot shorts.]]>
+	</playerSelf>
+	<playerNPC>
+	<![CDATA[You pull up your hot shorts.]]>
+	</playerNPC>
+	<playerNPCRough>
+	<![CDATA[You roughly pull up [npc.name]'s hot shorts.]]>
+	</playerNPCRough>
+	<NPCSelf>
+	<![CDATA[[npc.Name] pulls up [npc.her] hot shorts.]]>
+	</NPCSelf>
+	<NPCPlayer>
+	<![CDATA[[npc.Name] pulls up your hot shorts.]]>
+	</NPCPlayer>
+	<NPCPlayerRough>
+	<![CDATA[[npc.Name] roughly pulls up your hot shorts.]]>
+	</NPCPlayerRough>
+	<NPCOtherNPC>
+	<![CDATA[[npc.Name] pulls up [npc2.name]'s hot shorts.]]>
+	</NPCOtherNPC>
+	<NPCOtherNPCRough>
+	<![CDATA[[npc.Name] roughly pulls up [npc2.name]'s hot shorts.]]>
+	</NPCOtherNPCRough>
+	</replacementText>
+	
+	<replacementText type="UNZIPS">
+	<playerSelf>
+	<![CDATA[You zip up your hot shorts.]]>
+	</playerSelf>
+	<playerNPC>
+	<![CDATA[You zip up your hot shorts.]]>
+	</playerNPC>
+	<playerNPCRough>
+	<![CDATA[You roughly zip up [npc.name]'s hot shorts.]]>
+	</playerNPCRough>
+	<NPCSelf>
+	<![CDATA[[npc.Name] zips up [npc.her] hot shorts.]]>
+	</NPCSelf>
+	<NPCPlayer>
+	<![CDATA[[npc.Name] zips up your hot shorts.]]>
+	</NPCPlayer>
+	<NPCPlayerRough>
+	<![CDATA[[npc.Name] roughly zips up your hot shorts.]]>
+	</NPCPlayerRough>
+	<NPCOtherNPC>
+	<![CDATA[[npc.Name] zips up [npc2.name]'s hot shorts.]]>
+	</NPCOtherNPC>
+	<NPCOtherNPCRough>
+	<![CDATA[[npc.Name] roughly zips up [npc2.name]'s hot shorts.]]>
+	</NPCOtherNPCRough>
+	</replacementText>
+	
+</clothing>

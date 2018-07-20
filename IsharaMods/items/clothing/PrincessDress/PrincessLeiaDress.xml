@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<clothing>
+<coreAtributes>
+<value>700</value>
+<determiner>
+<![CDATA[a]]>
+</determiner>
+<name>
+<![CDATA[Ambassador Robe]]>
+</name>
+<namePlural pluralByDefault="false">
+<![CDATA[Ambassador Robes]]>
+</namePlural>
+<description>
+<![CDATA[A long-sleeved robe with a metallic belt. It is primarily worn by Ambassadors from the Angel-dominated land of Alderaan.]]>
+</description>
+<physicalResistance>1</physicalResistance> 
+<femininity>FEMININE</femininity>
+<slot>TORSO_UNDER</slot> 
+<rarity>RARE</rarity> 
+<clothingSet/> 
+<imageName>PrincessLeiaDress.svg</imageName> 
+<imageEquippedName/> 
+<enchantmentLimit/>
+<effects/>
+<blockedPartsList>
+<blockedParts>
+<displacementType>REMOVE_OR_EQUIP</displacementType>
+<clothingAccessRequired>
+<clothingAccess>ARMS_UP_TO_SHOULDER</clothingAccess>
+<clothingAccess>HEAD</clothingAccess>
+</clothingAccessRequired>
+<blockedBodyParts>
+<bodyPart>BREASTS</bodyPart>
+<bodyPart>NIPPLES</bodyPart>
+<bodyPart>STOMACH</bodyPart>
+<bodyPart>BACK</bodyPart>
+</blockedBodyParts>
+<clothingAccessBlocked>
+<clothingAccess>CHEST</clothingAccess>
+<clothingAccess>WAIST</clothingAccess>
+</clothingAccessBlocked>
+<concealedSlots>
+<slot>STOMACH</slot>
+<slot>CHEST</slot>
+<slot>NIPPLE</slot>
+<slot>PIERCING_NIPPLE</slot>
+<slot>PIERCING_STOMACH</slot>
+</concealedSlots>
+</blockedParts>
+<blockedParts>
+<displacementType>PULLS_UP</displacementType>
+<clothingAccessRequired>
+</clothingAccessRequired>
+<blockedBodyParts>
+<bodyPart>ANUS</bodyPart>
+<bodyPart>PENIS</bodyPart>
+<bodyPart>VAGINA</bodyPart>
+</blockedBodyParts>
+<clothingAccessBlocked>
+<clothingAccess>GROIN</clothingAccess>
+</clothingAccessBlocked>
+<concealedSlots>
+<slot>GROIN</slot>
+<slot>VAGINA</slot>
+<slot>ANUS</slot>
+<slot>PENIS</slot>
+<slot>PIERCING_PENIS</slot>
+<slot>PIERCING_VAGINA</slot>
+</concealedSlots>
+</blockedParts>
+</blockedPartsList>
+<incompatibleSlots/> 
+<primaryColours values="ALL"/> 
+<primaryColoursDye values="ALL"/>
+<secondaryColours values="ALL_METAL"/>
+<secondaryColoursDye values="ALL_METAL"/>
+
+<itemTags>
+<tag>SOLD_BY_NYAN</tag>
+</itemTags>
+</coreAtributes>
+<displacementText type="REMOVE_OR_EQUIP">
+<playerSelf>
+<![CDATA[You slip off your Ambassador's Robe.]]>
+</playerSelf>
+<playerNPC>
+<![CDATA[You slip off [npc.name]'s Ambassador's Robe.]]>
+</playerNPC>
+<playerNPCRough>
+<![CDATA[You pull off [npc.name]'s Ambassador's Robe.]]>
+</playerNPCRough>
+<NPCSelf>
+<![CDATA[[npc.Name] slips off [npc.her] Ambassador's Robe.]]>
+</NPCSelf>
+<NPCPlayer>
+<![CDATA[[npc.Name] slips off your Ambassador's Robe.]]>
+</NPCPlayer>
+<NPCPlayerRough>
+<![CDATA[[npc.Name] pulls off your Ambassador's Robe.]]>
+</NPCPlayerRough>
+<NPCOtherNPC>
+<![CDATA[[npc1.Name] slips off [npc2.name]'s Ambassador's Robe.]]>
+</NPCOtherNPC>
+<NPCOtherNPCRough>
+<![CDATA[[npc1.Name] pulls off [npc2.name]'s Ambassador's Robe.]]>
+</NPCOtherNPCRough>
+</displacementText>
+<displacementText type="PULLS_UP">
+<playerSelf>
+<![CDATA[You pull up the lower half of your Ambassador's Robe.]]>
+</playerSelf>
+<playerNPC>
+<![CDATA[You pull up the lower half of [npc.name]'s Ambassador's Robe.]]>
+</playerNPC>
+<playerNPCRough>
+<![CDATA[You flip up the lower half of [npc.name]'s Ambassador's Robe impatiently.]]>
+</playerNPCRough>
+<NPCSelf>
+<![CDATA[[npc.Name] pulls up the lower half of [npc.her] Ambassador's Robe.]]>
+</NPCSelf>
+<NPCPlayer>
+<![CDATA[[npc.Name] pulls up the lower half of your Ambassador's Robe.]]>
+</NPCPlayer>
+<NPCPlayerRough>
+<![CDATA[[npc.Name] flips up the lower half of your Ambassador's Robe impatiently.]]>
+</NPCPlayerRough>
+<NPCOtherNPC>
+<![CDATA[[npc1.Name] pulls up the lower half of [npc2.name]'s Ambassador's Robe.]]>
+</NPCOtherNPC>
+<NPCOtherNPCRough>
+<![CDATA[[npc1.Name] flips up the lower half of [npc2.name]'s Ambassador's Robe.]]>
+</NPCOtherNPCRough>
+</displacementText>
+
+<replacementText type="REMOVE_OR_EQUIP">
+<playerSelf>
+<![CDATA[You slip on the Ambassador's Robe.]]>
+</playerSelf>
+<playerNPC>
+<![CDATA[You slip on the Ambassador's Robe on [npc.name].]]>
+</playerNPC>
+<playerNPCRough>
+<![CDATA[You slip on the Ambassador's Robe on [npc.name].]]>
+</playerNPCRough>
+<NPCSelf>
+<![CDATA[[npc.Name] slips on the Ambassador's Robe.]]>
+</NPCSelf>
+<NPCPlayer>
+<![CDATA[[npc.Name] slips on the Ambassador's Robe on you.]]>
+</NPCPlayer>
+<NPCPlayerRough>
+<![CDATA[[npc.Name] slips on the Ambassador's Robe impatiently.]]>
+</NPCPlayerRough>
+<NPCOtherNPC>
+<![CDATA[[npc1.Name] slips on the Ambassador's Robe on [npc2.name].]]>
+</NPCOtherNPC>
+<NPCOtherNPCRough>
+<![CDATA[[npc1.Name] slips on the Ambassador's Robe impatiently on [npc2.name].]]>
+</NPCOtherNPCRough>
+</replacementText>
+<replacementText type="PULLS_UP">
+<playerSelf>
+<![CDATA[You pull the Ambassador's Robe back down into its proper position.]]>
+</playerSelf>
+<playerNPC>
+<![CDATA[You pull [npc.name]'s Ambassador's Robe back down into its proper position.]]>
+</playerNPC>
+<playerNPCRough>
+<![CDATA[You pull [npc.name]'s Ambassador's Robe back down into its proper position quickly.]]>
+</playerNPCRough>
+<NPCSelf>
+<![CDATA[[npc.Name] pulls [npc.her] Ambassador's Robe back down into its proper position.]]>
+</NPCSelf>
+<NPCPlayer>
+<![CDATA[[npc.Name] pulls the Ambassador's Robe back down into its proper position.]]>
+</NPCPlayer>
+<NPCPlayerRough>
+<![CDATA[[npc.Name] pulls the Ambassador's Robe back down into its proper position quickly.]]>
+</NPCPlayerRough>
+<NPCOtherNPC>
+<![CDATA[[npc1.Name] pulls [npc2.name]'s Ambassador's Robe back down into its proper position.]]>
+</NPCOtherNPC>
+<NPCOtherNPCRough>
+<![CDATA[[npc1.Name] pulls [npc2.name]'s Ambassador's Robe back down into its proper position quickly.]]>
+</NPCOtherNPCRough>
+</replacementText>
+</clothing>

@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<clothing>
+<coreAtributes>
+<value>600</value>
+<determiner>
+<![CDATA[a]]>
+</determiner>
+<name>
+<![CDATA[Sheer Circle Sleeve Top]]>
+</name>
+<namePlural pluralByDefault="false">
+<![CDATA[Sheer Circle Sleeve Tops]]>
+</namePlural>
+<description>
+<![CDATA[A transparent top with flared circle sleeves, made of extremely thin fabric.]]>
+</description>
+<physicalResistance>1</physicalResistance> 
+<femininity>FEMININE</femininity>
+<slot>TORSO_UNDER</slot> 
+<rarity>UNCOMMON</rarity> 
+<clothingSet/> 
+<imageName>SheerCircleTop.svg</imageName> 
+<imageEquippedName/> 
+<enchantmentLimit/>
+<effects/>
+<blockedPartsList>
+<blockedParts>
+<displacementType>REMOVE_OR_EQUIP</displacementType>
+<clothingAccessRequired>
+<clothingAccess>ARMS_UP_TO_SHOULDER</clothingAccess>
+<clothingAccess>HEAD</clothingAccess>
+</clothingAccessRequired>
+<blockedBodyParts>
+</blockedBodyParts>
+<clothingAccessBlocked>
+</clothingAccessBlocked>
+<concealedSlots>
+</concealedSlots>
+</blockedParts>
+<blockedParts>
+<displacementType>PULLS_UP</displacementType>
+<clothingAccessRequired>
+</clothingAccessRequired>
+<blockedBodyParts>
+<bodyPart>BREASTS</bodyPart>
+<bodyPart>NIPPLES</bodyPart>
+<bodyPart>STOMACH</bodyPart>
+<bodyPart>BACK</bodyPart>
+</blockedBodyParts>
+<clothingAccessBlocked>
+<clothingAccess>CHEST</clothingAccess>
+<clothingAccess>WAIST</clothingAccess>
+</clothingAccessBlocked>
+<concealedSlots>
+<slot>STOMACH</slot>
+<slot>CHEST</slot>
+<slot>NIPPLE</slot>
+<slot>PIERCING_NIPPLE</slot>
+<slot>PIERCING_STOMACH</slot>
+</concealedSlots>
+</blockedParts>
+</blockedPartsList>
+<incompatibleSlots/> 
+<primaryColours values="ALL"/> 
+<primaryColoursDye values="ALL"/>
+
+<itemTags>
+<tag>SOLD_BY_NYAN</tag>
+</itemTags>
+</coreAtributes>
+<displacementText type="REMOVE_OR_EQUIP">
+<playerSelf>
+<![CDATA[You slip off your sheer top over your head]]>
+</playerSelf>
+<playerNPC>
+<![CDATA[You slip off [npc.name]'s sheer top over [npc.her] head.]]>
+</playerNPC>
+<playerNPCRough>
+<![CDATA[You roughly pull off [npc.name]'s sheer top.]]>
+</playerNPCRough>
+<NPCSelf>
+<![CDATA[[npc.Name] slips off [npc.her] sheer top over her head.]]>
+</NPCSelf>
+<NPCPlayer>
+<![CDATA[[npc.Name] pulls off your sheer top.]]>
+</NPCPlayer>
+<NPCPlayerRough>
+<![CDATA[[npc.Name] roughly pulls off your sheer top.]]>
+</NPCPlayerRough>
+<NPCOtherNPC>
+<![CDATA[[npc.Name] slips off [npc2.name]'s sheer top over [npc2.her] head.]]>
+</NPCOtherNPC>
+<NPCOtherNPCRough>
+<![CDATA[[npc.Name] roughly  pulls off [npc2.name]'s sheer top.]]>
+</NPCOtherNPCRough>
+</displacementText>
+<displacementText type="PULLS_UP">
+<playerSelf>
+<![CDATA[You pull up your sheer top.]]>
+</playerSelf>
+<playerNPC>
+<![CDATA[You pull up [npc.name]'s sheer top.]]>
+</playerNPC>
+<playerNPCRough>
+<![CDATA[You roughly pull up [npc.name]'s sheer top.]]>
+</playerNPCRough>
+<NPCSelf>
+<![CDATA[[npc.Name] pulls up [npc.her] sheer top.]]>
+</NPCSelf>
+<NPCPlayer>
+<![CDATA[[npc.Name] pulls up your sheer top.]]>
+</NPCPlayer>
+<NPCPlayerRough>
+<![CDATA[[npc.Name] roughly pulls up your sheer top.]]>
+</NPCPlayerRough>
+<NPCOtherNPC>
+<![CDATA[[npc.Name] pulls up [npc2.name]'s sheer top.]]>
+</NPCOtherNPC>
+<NPCOtherNPCRough>
+<![CDATA[[npc.Name] roughly pulls up [npc2.name]'s sheer top.]]>
+</NPCOtherNPCRough>
+</displacementText>
+
+<replacementText type="REMOVE_OR_EQUIP">
+<playerSelf>
+<![CDATA[You pull on your sheer top over your head.]]>
+</playerSelf>
+<playerNPC>
+<![CDATA[You pull on [npc.name]'s sheer top over [npc.her] head.]]>
+</playerNPC>
+<playerNPCRough>
+<![CDATA[You roughly pull on [npc.name]'s sheer top over her head.]]>
+</playerNPCRough>
+<NPCSelf>
+<![CDATA[[npc.Name] pulls on [npc.her] sheer top over her head.]]>
+</NPCSelf>
+<NPCPlayer>
+<![CDATA[[npc.Name] pulls on your sheer top over your head.]]>
+</NPCPlayer>
+<NPCPlayerRough>
+<![CDATA[[npc.Name] roughly pulls on your sheer top over your head.]]>
+</NPCPlayerRough>
+<NPCOtherNPC>
+<![CDATA[[npc.Name] pulls on [npc2.name]'s sheer top over [npc2.her] head.]]>
+</NPCOtherNPC>
+<NPCOtherNPCRough>
+<![CDATA[[npc.Name] roughly pulls on [npc2.name]'s sheer top over [npc2.her] head.]]>
+</NPCOtherNPCRough>
+</replacementText>
+<replacementText type="PULLS_UP">
+<playerSelf>
+<![CDATA[You pull down your sheer top]]>
+</playerSelf>
+<playerNPC>
+<![CDATA[You pull down [npc.name]'s sheer top]]>
+</playerNPC>
+<playerNPCRough>
+<![CDATA[You roughly pull down [npc.name]'s sheer top.]]>
+</playerNPCRough>
+<NPCSelf>
+<![CDATA[[npc.Name] pulls down [npc.her] sheer top.]]>
+</NPCSelf>
+<NPCPlayer>
+<![CDATA[[npc.Name] pulls down your sheer top.]]>
+</NPCPlayer>
+<NPCPlayerRough>
+<![CDATA[[npc.Name] roughly pulls down your sheer top.]]>
+</NPCPlayerRough>
+<NPCOtherNPC>
+<![CDATA[[npc.Name] pulls down [npc2.name]'s sheer top.]]>
+</NPCOtherNPC>
+<NPCOtherNPCRough>
+<![CDATA[[npc.Name] roughly pulls down [npc2.name]'s sheer top.]]>
+</NPCOtherNPCRough>
+</replacementText>
+
+</clothing>

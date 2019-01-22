@@ -69,7 +69,6 @@
 
 				<!-- The body parts that are blocked by this 'displacementType'. bodyPart values can be found here: https://github.com/Innoxia/liliths-throne-public/blob/master/src/com/lilithsthrone/game/character/body/CoverableArea.java -->
 				<blockedBodyParts>
-					<bodyPart>EYES</bodyPart>
 					<bodyPart>MOUTH</bodyPart>
 				</blockedBodyParts>
 				<!-- The access that this 'displacementType' blocks. Again, clothingAccess values can be found here: https://github.com/Innoxia/liliths-throne-public/blob/master/src/com/lilithsthrone/game/inventory/clothing/ClothingAccess.java -->

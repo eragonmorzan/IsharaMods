@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<clothing>
+	<coreAtributes>
+		<value>3500</value>
+		<determiner><![CDATA[a pair of]]></determiner>
+		<name><![CDATA[Tall Boots]]></name>
+		<namePlural pluralByDefault="true"><![CDATA[Tall Boots]]></namePlural>
+		<description><![CDATA[A pair of tall, jagged boots with high resiliency made for battle.]]></description>
+		<physicalResistance>10</physicalResistance>
+		<femininity>ANDROGYNOUS</femininity>
+		<slot>FOOT</slot>
+		<rarity>RARE</rarity>
+		<clothingSet></clothingSet>
+		<imageName>super_boots.svg</imageName>
+		<enchantmentLimit></enchantmentLimit>
+		<effects />
+		<blockedPartsList>
+			<blockedParts>
+				<displacementType>REMOVE_OR_EQUIP</displacementType>
+				<clothingAccessRequired>
+					<clothingAccess>FEET</clothingAccess>
+				</clothingAccessRequired>
+				<blockedBodyParts />
+				<clothingAccessBlocked />
+				<concealedSlots>
+					<slot>SOCK</slot>
+				</concealedSlots>
+			</blockedParts>
+		</blockedPartsList>
+		<incompatibleSlots />
+		<primaryColours>
+			<colour>CLOTHING_RED</colour>
+		</primaryColours>
+		<primaryColoursDye values="ALL" />
+		<secondaryColours/>
+		<secondaryColoursDye/>
+		<tertiaryColours/>
+		<tertiaryColoursDye/>
+		<itemTags>
+			<tag>SOLD_BY_NYAN</tag>
+		</itemTags>
+	</coreAtributes>
+	<displacementText type="REMOVE_OR_EQUIP">
+		<playerSelf><![CDATA[You slip off your boots.]]></playerSelf>
+		<playerNPC><![CDATA[You carefully extract [Npc.namePos] feet from [npc.her] boots.]]></playerNPC>
+		<playerNPCRough><![CDATA[You roughly tug off [Npc.namePos] boots.]]></playerNPCRough>
+		<NPCSelf><![CDATA[[Npc.name] kicks off [npc.her] boots, flexing some life into her toes.]]></NPCSelf>
+		<NPCPlayer><![CDATA[[Npc.name] removes your boots.]]></NPCPlayer>
+		<NPCPlayerRough><![CDATA[[Npc.name] roughly rips off your boots.]]></NPCPlayerRough>
+		<NPCOtherNPC><![CDATA[[Npc1.name] carefully extracts [Npc2,namePos] feet from [npc2.her] boots.]]></NPCOtherNPC>
+		<NPCOtherNPCRough><![CDATA[[Npc1.name] roughly rips off [Npc2.namePos] boots.]]></NPCOtherNPCRough>
+	</displacementText>
+	<replacementText type="REMOVE_OR_EQUIP">
+		<playerSelf><![CDATA[You slide your foot inside your boots and test your weight on the hooves.]]></playerSelf>
+		<playerNPC><![CDATA[You slip the boots on [Npc.namePos] feet.]]></playerNPC>
+		<playerNPCRough><![CDATA[You roughly force the boots onto [Npc.name].]]></playerNPCRough>
+		<NPCSelf><![CDATA[[Npc.name] slips on [npc.her] boots.]]></NPCSelf>
+		<NPCPlayer><![CDATA[[Npc.name] dutifully slides the boots onto your feet.]]></NPCPlayer>
+		<NPCPlayerRough><![CDATA[[Npc.name] roughly forces your feet into the boots.]]></NPCPlayerRough>
+		<NPCOtherNPC><![CDATA[[Npc1.name] slides [Npc2.namePos] feet into the boots.]]></NPCOtherNPC>
+		<NPCOtherNPCRough><![CDATA[[Npc1.name] roughly forces [Npc2.namePos] feet into the boots.]]></NPCOtherNPCRough>
+	</replacementText>
+</clothing>

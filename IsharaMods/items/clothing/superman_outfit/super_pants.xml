@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<clothing>
+	<coreAtributes>
+		<value>2500</value> 
+		<determiner><![CDATA[a pair of]]></determiner>
+		<name><![CDATA[Superhero Tights]]></name>
+		<namePlural pluralByDefault="false"><![CDATA[Superhero Tights]]></namePlural> 
+		<description><![CDATA[A pair of form-fitting tights made of highly durable material for battle general heroism.]]></description> 
+		<physicalResistance>10</physicalResistance> 
+		<femininity>ANDROGYNOUS</femininity> 
+		<slot>GROIN</slot> 
+		<rarity>RARE</rarity> 
+		<clothingSet></clothingSet>
+		<imageName>super_pants.svg</imageName> 
+		<imageEquippedName/> 
+		<enchantmentLimit/>
+		<effects/> 
+		<blockedPartsList> 
+			<blockedParts>
+				<displacementType>REMOVE_OR_EQUIP</displacementType> 
+				<clothingAccessRequired>
+					<clothingAccess>LEGS_UP_TO_GROIN</clothingAccess>				
+				</clothingAccessRequired>	
+				<blockedBodyParts>
+				</blockedBodyParts>
+				<clothingAccessBlocked/>
+				<concealedSlots>
+				</concealedSlots>
+			</blockedParts>
+			<blockedParts>
+				<displacementType>PULLS_DOWN</displacementType>
+				<clothingAccessRequired/>
+				<blockedBodyParts>
+					<bodyPart>VAGINA</bodyPart>
+					<bodyPart>PENIS</bodyPart>
+					<bodyPart>ANUS</bodyPart>
+				</blockedBodyParts>
+				<clothingAccessBlocked>
+				</clothingAccessBlocked>
+				<concealedSlots>
+					<slot>PENIS</slot>
+					<slot>VAGINA</slot>
+					<slot>PIERCING_PENIS</slot>
+					<slot>PIERCING_VAGINA</slot>
+				</concealedSlots>
+			</blockedParts>
+		</blockedPartsList>
+		<incompatibleSlots/>
+		<primaryColours>
+			<colour>CLOTHING_BLUE</colour>
+		</primaryColours>
+		<primaryColoursDye values="ALL"/>
+		<secondaryColours values="NONE"/>
+		<secondaryColoursDye values="NONE"/>
+		<tertiaryColours values="NONE"/>
+		<tertiaryColoursDye values="NONE"/>
+		<itemTags> 
+			<tag>SOLD_BY_NYAN</tag>
+		</itemTags>
+	</coreAtributes>
+
+	<displacementText type="REMOVE_OR_EQUIP">
+		<playerSelf><![CDATA[
+			You take off your superhero tights.
+		]]></playerSelf>
+		<playerNPC><![CDATA[
+			You pull off [npc.name]'s superhero tights.
+		]]></playerNPC>
+		<playerNPCRough><![CDATA[
+			You grab hold of [npc.name]'s superhero tights and roughly pull it off [npc.her] legs.
+		]]></playerNPCRough>
+		<NPCSelf><![CDATA[
+			[npc.Name] takes [npc.her] superhero tights off.
+		]]></NPCSelf>
+		<NPCPlayer><![CDATA[
+			[npc.Name] pulls your superhero tights off.
+		]]></NPCPlayer>
+		<NPCPlayerRough><![CDATA[
+			[npc.Name] grabs hold of your superhero tights and roughly pulls it off your legs.
+		]]></NPCPlayerRough>
+		<NPCOtherNPC><![CDATA[
+			[npc1.Name] pulls [npc2.name]'s superhero tights off.
+		]]></NPCOtherNPC>
+		<NPCOtherNPCRough><![CDATA[
+			[npc.Name] grabs hold of [npc2.name]'s tights and roughly pulls it off [npc2.her] legs.
+		]]></NPCOtherNPCRough>
+	</displacementText>
+	<replacementText type="REMOVE_OR_EQUIP">
+		<playerSelf><![CDATA[
+			You put on your tights.
+		]]></playerSelf>
+		<playerNPC><![CDATA[
+			You guide [npc.name]'s [npc.legs] through their tights as you pull it onto [npc.herHim].
+		]]></playerNPC>
+		<playerNPCRough><![CDATA[
+			You hold [npc.name] still as you roughly pull up [npc.her] tights.
+		]]></playerNPCRough>
+		<NPCSelf><![CDATA[
+			[npc.Name] puts on their tights.
+		]]></NPCSelf>
+		<NPCPlayer><![CDATA[
+			[npc.Name] guides your [pc.legs] through your pants.
+		]]></NPCPlayer>
+		<NPCPlayerRough><![CDATA[
+			[npc.Name] holds you still as [npc.she] roughly forces on your pants.
+		]]></NPCPlayerRough>
+		<NPCOtherNPC><![CDATA[
+			[npc1.Name] guides [npc2.name]'s [npc2.legs] through their pants.
+		]]></NPCOtherNPC>
+		<NPCOtherNPCRough><![CDATA[
+			[npc1.Name] holds [npc2.name] still as [npc1.she] roughly pull up [npc2.her] pants.
+		]]></NPCOtherNPCRough>
+	</replacementText>
+
+	<displacementText type="PULLS_DOWN">
+		<playerSelf><![CDATA[
+			You pull down your superhero tights.
+		]]></playerSelf>
+		<playerNPC><![CDATA[
+			You pull down [npc.name]'s superhero tights.
+		]]></playerNPC>
+		<playerNPCRough><![CDATA[
+			You grab hold of [npc.name] and roughly pull down [npc.her] superhero tights.
+		]]></playerNPCRough>
+		<NPCSelf><![CDATA[
+			[npc.Name] pulls down [npc.her] superhero tights.
+		]]></NPCSelf>
+		<NPCPlayer><![CDATA[
+			[npc.Name] pulls down your superhero tights.
+		]]></NPCPlayer>
+		<NPCPlayerRough><![CDATA[
+			[npc.Name] grabs hold of you and roughly pulls down your superhero tights.
+		]]></NPCPlayerRough>
+		<NPCOtherNPC><![CDATA[
+			[npc1.Name] pulls down [npc2.name]'s superhero tights.
+		]]></NPCOtherNPC>
+		<NPCOtherNPCRough><![CDATA[
+			[npc.Name] grabs hold of [npc2.name] and roughly pulls down [npc2.her] superhero tights.
+		]]></NPCOtherNPCRough>
+	</displacementText>
+	<replacementText type="PULLS_UP">
+		<playerSelf><![CDATA[
+			You pull up your superhero tights.
+		]]></playerSelf>
+		<playerNPC><![CDATA[
+			You pull up [npc.name]'s superhero tights.
+		]]></playerNPC>
+		<playerNPCRough><![CDATA[
+			You grab hold of [npc.name] and roughly pull up [npc.her] superhero tights.
+		]]></playerNPCRough>
+		<NPCSelf><![CDATA[
+			[npc.Name] pulls up [npc.her] superhero tights.
+		]]></NPCSelf>
+		<NPCPlayer><![CDATA[
+			[npc.Name] pulls up your superhero tights.
+		]]></NPCPlayer>
+		<NPCPlayerRough><![CDATA[
+			[npc.Name] grabs hold of you and roughly pulls up your superhero tights.
+		]]></NPCPlayerRough>
+		<NPCOtherNPC><![CDATA[
+			[npc1.Name] pulls up [npc2.name]'s superhero tights.
+		]]></NPCOtherNPC>
+		<NPCOtherNPCRough><![CDATA[
+			[npc.Name] grabs hold of [npc2.name] and roughly pulls up [npc2.her] superhero tights.
+		]]></NPCOtherNPCRough>
+	</replacementText>
+	
+</clothing>

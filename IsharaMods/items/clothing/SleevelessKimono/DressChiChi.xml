@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<clothing>
+  <coreAtributes>
+    <value>700</value>
+    <determiner><![CDATA[a]]></determiner>
+    <name><![CDATA[Sleeveless Kimono]]></name>
+    <namePlural pluralByDefault="false"><![CDATA[Sleeveless Kimonos]]></namePlural>
+    <description><![CDATA[A sleeveless high collar kimono. The fitting is extremely tight and made to accentuate a woman's curves.]]></description>
+    <physicalResistance>1</physicalResistance>
+    <femininity>FEMININE</femininity>
+    <slot>TORSO_UNDER</slot>
+    <rarity>UNCOMMON</rarity>
+    <clothingSet></clothingSet>
+    <imageName>DressChiChi.svg</imageName>
+    <imageEquippedName></imageEquippedName>
+    <enchantmentLimit>5</enchantmentLimit>
+    <effects />
+    <blockedPartsList>
+      <blockedParts>
+        <displacementType>REMOVE_OR_EQUIP</displacementType>
+        <clothingAccessRequired>
+          <clothingAccess>HEAD</clothingAccess>
+          <clothingAccess>ARMS_UP_TO_SHOULDER</clothingAccess>
+        </clothingAccessRequired>
+        <blockedBodyParts>
+          <bodyPart>BACK</bodyPart>
+          <bodyPart>BREASTS</bodyPart>
+          <bodyPart>NIPPLES</bodyPart>
+        </blockedBodyParts>
+        <clothingAccessBlocked>
+          <clothingAccess>CHEST</clothingAccess>
+          <clothingAccess>WAIST</clothingAccess>
+        </clothingAccessBlocked>
+        <concealedSlots />
+      </blockedParts>
+      <blockedParts>
+        <displacementType>UNTIE</displacementType>
+        <clothingAccessRequired>
+        </clothingAccessRequired>
+        <blockedBodyParts>
+          <bodyPart>STOMACH</bodyPart>
+          <bodyPart>BREASTS</bodyPart>
+          <bodyPart>NIPPLES</bodyPart>
+		  <bodyPart>VAGINA</bodyPart>
+		  <bodyPart>PENIS</bodyPart>
+        </blockedBodyParts>
+        <clothingAccessBlocked>
+          <clothingAccess>CHEST</clothingAccess>
+          <clothingAccess>WAIST</clothingAccess>
+        </clothingAccessBlocked>
+        <concealedSlots>
+			<slot>STOMACH</slot>
+			<slot>CHEST</slot>
+			<slot>NIPPLE</slot>
+			<slot>PIERCING_NIPPLE</slot>
+			<slot>PIERCING_STOMACH</slot>
+			<slot>GROIN</slot>
+			<slot>VAGINA</slot>
+			<slot>PENIS</slot>
+			<slot>PIERCING_PENIS</slot>
+			<slot>PIERCING_VAGINA</slot>
+		</concealedSlots>
+      </blockedParts>
+    </blockedPartsList>
+    <incompatibleSlots />
+    <primaryColours>
+		<colour>CLOTHING_ORANGE_BRIGHT</colour>
+		<colour>CLOTHING_BLUE</colour>
+		<colour>CLOTHING_BLUE_DARK</colour>
+	</primaryColours>
+    <primaryColoursDye values="ALL"/>
+     <secondaryColours>
+		<colour>CLOTHING_RED</colour>
+		<colour>CLOTHING_PURPLE_DARK</colour>
+    </secondaryColours>
+    <secondaryColoursDye values="ALL"/>
+    <itemTags>
+      <tag>SOLD_BY_NYAN</tag>
+    </itemTags>
+  </coreAtributes>
+  <displacementText type="REMOVE_OR_EQUIP">
+    <playerSelf><![CDATA[You remove the sleeveless kimono]]></playerSelf>
+    <playerNPC><![CDATA[You remove [npc.Name]'s sleeveless kimono]]></playerNPC>
+    <playerNPCRough><![CDATA[You roughly remove [npc.Name]'s sleeveless kimono]]></playerNPCRough>
+    <NPCSelf><![CDATA[[npc.Name] removes [npc.her] sleeveless kimono]]></NPCSelf>
+    <NPCPlayer><![CDATA[[npc.Name] removes your sleeveless kimono]]></NPCPlayer>
+    <NPCPlayerRough><![CDATA[Displacement Text]]></NPCPlayerRough>
+    <NPCOtherNPC><![CDATA[[npc.Name] removes [npc2.name]'s sleeveless kimono]]></NPCOtherNPC>
+    <NPCOtherNPCRough><![CDATA[[npc.Name] roughly removes [npc2.name]'s sleeveless kimono]]></NPCOtherNPCRough>
+  </displacementText>
+  <replacementText type="REMOVE_OR_EQUIP">
+    <playerSelf><![CDATA[You wear the sleeveless kimono]]></playerSelf>
+    <playerNPC><![CDATA[You equip the sleeveless kimono onto [npc.Name]]]></playerNPC>
+    <playerNPCRough><![CDATA[You equip the sleeveless kimono onto [npc.Name] roughly]]></playerNPCRough>
+    <NPCSelf><![CDATA[[npc.Name] wears the sleeveless kimono]]></NPCSelf>
+    <NPCPlayer><![CDATA[[npc.Name] puts on the sleeveless kimono on you]]></NPCPlayer>
+    <NPCPlayerRough><![CDATA[[npc.Name] roughly puts on the sleeveless kimono on you]]></NPCPlayerRough>
+    <NPCOtherNPC><![CDATA[[npc.Name] puts on the sleeveless kimono on [npc2.name]]]></NPCOtherNPC>
+    <NPCOtherNPCRough><![CDATA[[npc.Name] roughly puts on the sleeveless kimono on [npc2.name]]]></NPCOtherNPCRough>
+  </replacementText>
+  <displacementText type="UNTIE">
+    <playerSelf><![CDATA[You untie your sleeveless kimono]]></playerSelf>
+    <playerNPC><![CDATA[You untie [npc.name]'s sleeveless kimono]]></playerNPC>
+    <playerNPCRough><![CDATA[You roughly untie [npc.name]'s sleeveless kimono]]></playerNPCRough>
+    <NPCSelf><![CDATA[[npc.name] unties [npc.her] sleeveless.kimono]]></NPCSelf>
+    <NPCPlayer><![CDATA[[npc.name] unties your sleeveless.kimono]]></NPCPlayer>
+    <NPCPlayerRough><![CDATA[[npc.name] roughly unties your sleeveless.kimono]]></NPCPlayerRough>
+    <NPCOtherNPC><![CDATA[[npc.name] unties [npc2.name]'s sleeveless.kimono]]></NPCOtherNPC>
+    <NPCOtherNPCRough><![CDATA[[npc.name] roughly unties [npc2.name]'s sleeveless.kimono]]></NPCOtherNPCRough>
+  </displacementText>
+  <replacementText type="UNTIE">
+    <playerSelf><![CDATA[You tie your sleeveless kimono]]></playerSelf>
+    <playerNPC><![CDATA[You tie [npc.name]'s sleeveless kimono]]></playerNPC>
+    <playerNPCRough><![CDATA[You roughly tie up [npc.name]'s sleeveless kimono]]></playerNPCRough>
+    <NPCSelf><![CDATA[[npc.name] ties [npc.her] sleeveless.kimono]]></NPCSelf>
+    <NPCPlayer><![CDATA[[npc.name] ties your sleeveless.kimono]]></NPCPlayer>
+    <NPCPlayerRough><![CDATA[[npc.name] roughly ties your sleeveless.kimono]]></NPCPlayerRough>
+    <NPCOtherNPC><![CDATA[[npc.name] ties [npc2.name]'s sleeveless.kimono]]></NPCOtherNPC>
+    <NPCOtherNPCRough><![CDATA[[npc.name] roughly ties [npc2.name]'s sleeveless.kimono]]></NPCOtherNPCRough>
+  </replacementText>
+</clothing>

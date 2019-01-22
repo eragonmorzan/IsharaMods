@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<clothing>
+	<coreAtributes>
+		<value>1200</value>
+		<determiner><![CDATA[a pair of]]></determiner>
+		<name><![CDATA[Nerdy Glasses]]></name>
+		<namePlural pluralByDefault="true"><![CDATA[Nerdy Glasses]]></namePlural>
+		<description><![CDATA[A pair of large blocky rectangular framed glasses with thick lenses.]]></description>
+		<physicalResistance>0</physicalResistance>
+		<femininity>ANDROGYNOUS</femininity>
+		<slot>EYES</slot>
+		<rarity>UNCOMMON</rarity>
+		<clothingSet></clothingSet>
+		<imageName>nerdy_glasses.svg</imageName>
+		<imageEquippedName></imageEquippedName>
+		<enchantmentLimit>5</enchantmentLimit>
+		<effects/>
+		<blockedPartsList>
+			<blockedParts>
+				<displacementType>REMOVE_OR_EQUIP</displacementType>
+				<clothingAccessRequired>
+					<clothingAccess>EYES</clothingAccess>
+				</clothingAccessRequired>
+				<blockedBodyParts />
+				<clothingAccessBlocked />
+				<concealedSlots />
+			</blockedParts>
+		</blockedPartsList>
+		<incompatibleSlots />
+		<primaryColours values="JUST_BLACK" />
+		<primaryColoursDye values="ALL_WITH_METALS" />
+		<secondaryColours values="JUST_BLACK" />
+		<secondaryColoursDye values="ALL_METAL" />
+		<tertiaryColours values="JUST_WHITE" />
+		<tertiaryColoursDye values="ALL" />
+		<itemTags>
+			<tag>SOLD_BY_KATE</tag>
+			<tag>SOLD_BY_NYAN</tag>
+			<tag>DOMINION_ALLEYWAY_SPAWN</tag>
+		</itemTags>
+	</coreAtributes>
+	<displacementText type="REMOVE_OR_EQUIP">
+		<playerSelf><![CDATA[You put the glasses off.]]></playerSelf>
+		<playerNPC><![CDATA[You put the glasses off. [npc.name]'s face.]]></playerNPC>
+		<playerNPCRough><![CDATA[You pull the glasses off [npc.name]'s face and give [npc.her] a bitch slap as a consolation prize.]]></playerNPCRough>
+		<NPCSelf><![CDATA[[npc.name] puts the glasses off.]]></NPCSelf>
+		<NPCPlayer><![CDATA[[npc.name] puts the glasses off your face.]]></NPCPlayer>
+		<NPCPlayerRough><![CDATA[[npc.name] puts the glasses off your face and give you a rude gesture instead.]]></NPCPlayerRough>
+		<NPCOtherNPC><![CDATA[[npc1.name] pulls the glasses off [npc2.name] face.]]></NPCOtherNPC>
+		<NPCOtherNPCRough><![CDATA[[npc1.name] pulls the glasses off [npc2.name] face.]]></NPCOtherNPCRough>
+	</displacementText>
+	<replacementText type="REMOVE_OR_EQUIP">
+		<playerSelf><![CDATA[You put the glasses on. ]]></playerSelf>
+		<playerNPC><![CDATA[You put the glasses on [npc.name]'s nose.]]></playerNPC>
+		<playerNPCRough><![CDATA[You slap [npc.name] on the face and carefully put the glasses on [npc.her] nose.]]></playerNPCRough>
+		<NPCSelf><![CDATA[[npc.name] puts the glasses on. ]]></NPCSelf>
+		<NPCPlayer><![CDATA[[npc.name] puts the glasses on your face. ]]></NPCPlayer>
+		<NPCPlayerRough><![CDATA[[npc.name] gives you a harsh slap on the face and proceed with carefully putting the glasses on your nose.]]></NPCPlayerRough>
+		<NPCOtherNPC><![CDATA[[npc1.name] puts the glasses on [npc2.name]'s nose.]]></NPCOtherNPC>
+		<NPCOtherNPCRough><![CDATA[[npc1.name] gives [npc2.name] a harsh slap on the face and proceed with carefully putting the glasses on [npc2.her] nose.]]></NPCOtherNPCRough>
+	</replacementText>
+</clothing>

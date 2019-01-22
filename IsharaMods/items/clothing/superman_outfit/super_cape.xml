@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<clothing>
+	<coreAttributes>
+		<value>10000</value>
+		<determiner><![CDATA[The]]></determiner>
+		<name><![CDATA[House of El Cape]]></name>
+		<namePlural pluralByDefault="false"><![CDATA[House of El Capes]]></namePlural>
+		<description><![CDATA[A cape made of a mysterious highly resilient material which provides the wearer with immense resistance to any form of physical damage.]]></description>
+		<physicalResistance>50</physicalResistance>
+		<femininity>ANDROGYNOUS</femininity>
+		<slot>TORSO_OVER</slot>
+		<rarity>LEGENDARY</rarity>
+		<clothingSet/>
+		<imageName>super_cape.svg</imageName>
+		<imageEquippedName/>
+		<enchantmentLimit>100</enchantmentLimit>
+		<effects> 
+		</effects>
+		
+		<blockedPartsList>
+			<blockedParts>
+				<displacementType>REMOVE_OR_EQUIP</displacementType>
+				<clothingAccessRequired/>
+				<blockedBodyParts>
+					<bodyPart>BACK</bodyPart>
+				</blockedBodyParts>
+				<clothingAccessBlocked/>
+				<concealedSlots/>
+			</blockedParts>
+		</blockedPartsList>
+		
+		<incompatibleSlots/>
+		
+		<primaryColours>
+			<colour>CLOTHING_RED</colour>
+		</primaryColours>
+		<primaryColoursDye values="ALL"/>
+		<secondaryColours>
+			<colour>CLOTHING_YELLOW</colour>
+		</secondaryColours>
+		<secondaryColoursDye values="ALL_WITH_METALS"/>
+		<tertiaryColours>
+		</tertiaryColours>
+		<tertiaryColoursDye/>
+	
+		<itemTags>
+			<tag>SOLD_BY_NYAN</tag>
+		</itemTags>
+	</coreAttributes>
+
+	
+  <replacementText type="REMOVE_OR_EQUIP">
+    <self>
+      <![CDATA[[npc.Name] [npc.verb(drape)] the cape over [npc.her] shoulders, before fastening the strap around [npc.her] neck.]]>
+    </self>
+    <other>
+      <![CDATA[[npc.Name] [npc.verb(drape)] the cape over [npc2.namePos] shoulders, before fastening the strap around [npc2.her] neck.]]>
+    </other>
+    <otherRough>
+      <![CDATA[[npc.Name] roughly [npc.verb(drape)] the cape over [npc2.namePos] shoulders, before firmly fastening the strap around [npc2.her] neck.]]>
+    </otherRough>
+  </replacementText>
+
+  <displacementText type="REMOVE_OR_EQUIP">
+    <self>
+      <![CDATA[[npc.Name] [npc.verb(unfasten)] the strap around [npc.her] neck, before taking off [npc.her] cape.]]>
+    </self>
+    <other>
+      <![CDATA[[npc.Name] [npc.verb(unfasten)] the strap around [npc2.namePos] neck, before taking off [npc2.her] cape.]]>
+    </other>
+    <otherRough>
+      <![CDATA[[npc.Name] roughly [npc.verb(unfasten)] the strap around [npc2.namePos] neck, before pulling off [npc2.her] cape.]]>
+    </otherRough>
+  </displacementText>
+
+</clothing>

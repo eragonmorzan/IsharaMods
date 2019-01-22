@@ -28,7 +28,6 @@
 <blockedParts>
 <displacementType>REMOVE_OR_EQUIP</displacementType>
 <clothingAccessRequired>
-<clothingAccess>TAIL</clothingAccess>
 </clothingAccessRequired>
 <blockedBodyParts>
 </blockedBodyParts>

@@ -7,3 +7,4 @@ Please support Innoxia and her project if you like it and/or are a fan of text-b
 Installation:
 * Make sure you are running version 0.3 or higher.
 * Extract the archive to your game folder. (merge with res folder)
+

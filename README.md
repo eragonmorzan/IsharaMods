@@ -5,5 +5,5 @@ Link for Lilith's Throne: www.lilithsthrone.blogspot.com/
 Please support Innoxia and her project if you like it and/or are a fan of text-based RPGs.
 
 Installation:
-* Make sure you are running version 0.2.6.2 or higher.
-* Extract the archive to your res/mods/ folder.
+* Make sure you are running version 0.3 or higher.
+* Extract the archive to your game folder. (merge with res folder)

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<clothing>
+	<coreAtributes>
+		<value>1500</value>
+		<determiner>
+			<![CDATA[a]]>
+		</determiner>
+		<name>
+			<![CDATA[Pearl Necklace]]>
+		</name>
+		<namePlural pluralByDefault="false">
+			<![CDATA[Pearl Necklaces]]>
+		</namePlural>
+		<description>
+			<![CDATA[A necklace made of high quality pearls.]]>
+		</description>
+		<physicalResistance>0</physicalResistance> 
+		<femininity>ANDROGYNOUS</femininity>
+		<slot>NECK</slot> 
+		<rarity>RARE</rarity> 
+		<clothingSet/> 
+		<imageName>PearlNecklace.svg</imageName> 
+		<imageEquippedName/> 
+		<enchantmentLimit>5</enchantmentLimit>
+		<effects/>
+		<blockedPartsList>
+			<blockedParts>
+			<displacementType>REMOVE_OR_EQUIP</displacementType>
+			<clothingAccessRequired>
+			</clothingAccessRequired>
+			<blockedBodyParts>
+			</blockedBodyParts>
+			<clothingAccessBlocked>
+			</clothingAccessBlocked>
+			<concealedSlots>
+			</concealedSlots>
+			</blockedParts>
+		</blockedPartsList>
+		<incompatibleSlots/> 
+		<primaryColours values="JUST_WHITE"/> 
+		<primaryColoursDye values="ALL_METAL"/>
+		<secondaryColours/> 
+		<secondaryColoursDye/>
+		<itemTags>
+			<tag>SOLD_BY_NYAN</tag>
+			<tag>SOLD_BY_KATE</tag>
+			<tag>DOMINION_ALLEYWAY_SPAWN</tag>
+		</itemTags>
+	</coreAtributes>
+	<displacementText type="REMOVE_OR_EQUIP">
+		<playerSelf>
+		<![CDATA[You unclasp your pearl necklace]]>
+		</playerSelf>
+		<playerNPC>
+		<![CDATA[You unclasp [npc.name]'s pearl necklace]]>
+		</playerNPC>
+		<playerNPCRough>
+		<![CDATA[You roughly pulls off [npc.name]'s pearl necklace.]]>
+		</playerNPCRough>
+		<NPCSelf>
+		<![CDATA[[npc.Name] unclasps [npc.her] pearl necklace.]]>
+		</NPCSelf>
+		<NPCPlayer>
+		<![CDATA[[npc.Name] unclasps your pearl necklace.]]>
+		</NPCPlayer>
+		<NPCPlayerRough>
+		<![CDATA[[npc.Name] roughly pulls off your pearl necklace.]]>
+		</NPCPlayerRough>
+		<NPCOtherNPC>
+		<![CDATA[[npc.Name] unclasps [npc2.name]'s pearl necklace.]]>
+		</NPCOtherNPC>
+		<NPCOtherNPCRough>
+		<![CDATA[[npc.Name] roughly pulls off [npc2.name]'s pearl necklace.]]>
+		</NPCOtherNPCRough>
+	</displacementText>
+	<replacementText type="REMOVE_OR_EQUIP">
+		<playerSelf>
+		<![CDATA[You clasp your pearl necklace]]>
+		</playerSelf>
+		<playerNPC>
+		<![CDATA[You clasp [npc.name]'s pearl necklace]]>
+		</playerNPC>
+		<playerNPCRough>
+		<![CDATA[You roughly clasp [npc.name]'s pearl necklace.]]>
+		</playerNPCRough>
+		<NPCSelf>
+		<![CDATA[[npc.Name] clasps [npc.her] pearl necklace.]]>
+		</NPCSelf>
+		<NPCPlayer>
+		<![CDATA[[npc.Name] clasps your pearl necklace.]]>
+		</NPCPlayer>
+		<NPCPlayerRough>
+		<![CDATA[[npc.Name] roughly clasps your pearl necklace.]]>
+		</NPCPlayerRough>
+		<NPCOtherNPC>
+		<![CDATA[[npc.Name] clasps [npc2.name]'s pearl necklace.]]>
+		</NPCOtherNPC>
+		<NPCOtherNPCRough>
+		<![CDATA[[npc.Name] roughly clasps [npc2.name]'s pearl necklace.]]>
+		</NPCOtherNPCRough>
+	</replacementText>
+</clothing>
